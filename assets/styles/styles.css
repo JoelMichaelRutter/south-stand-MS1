@@ -133,19 +133,20 @@ nav li a:hover:not(#grab-table-button) {
 .beer-card-container {
     width: 100%;
     background-color: #3f4042;
-    height: 80vh;
+    height: 64vh;
     text-align: center;
+    padding-top: 2vh;
 }
 
 .beer-card {
     display: inline-block;
     width: 25%;
     height: 60vh;
-    margin: 2vh auto;
+    margin: 0 2vw;
     background-color: #dbdddb;
     text-align: center;
 }
 /* MAKE SURE TO REFERENCE W3CHOOLS CODE YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
-#forty-twenty-pilsner-card {
+ /* #forty-twenty-pilsner-card {
     margin: 0 5%;
-}
+} */
