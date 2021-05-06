@@ -87,12 +87,8 @@ nav li a:hover:not(#grab-table-button) {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 72vh;
+    height: 80vh;
     position: relative;
-}
-
-#menu-section div {
-    height: 700px;
 }
 
 #about-overlay {
@@ -104,7 +100,7 @@ nav li a:hover:not(#grab-table-button) {
     margin-left: 8%;
     float: left;
     position: absolute;
-    border-radius: 3px;;
+    border-radius: 3px;
 }
 
 #about-overlay h2 {
@@ -131,5 +127,20 @@ nav li a:hover:not(#grab-table-button) {
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
-    margin-top: 2vh;
+    margin: 2vh 0;
+}
+
+.beer-card-container {
+    width: 100%;
+    background-color: #3f4042;
+    height: 80vh;
+}
+
+.beer-card {
+    display: inline-block;
+    width: 25%;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: #dbdddb;
+    text-align: center;
 }
