@@ -95,10 +95,32 @@ nav li a:hover:not(#grab-table-button) {
 #about-overlay {
     width: 40%;
     height: 300px;
-    /*background-color: rgba(181, 138, 27, 0.7);*/
-    background-color: rgba(81, 87, 107, 0.7);
+    background-color: rgba(181, 138, 27, 0.9);
+    /*background-color: rgba(81, 87, 107, 0.7);*/
     bottom: 200px;
     margin-left: 8%;
     float: left;
     position: absolute;
+    border-radius: 3px;;
+}
+
+#about-overlay h2 {
+    text-align: left;
+    margin-top: 2vh;
+    padding-left: 2vh;
+    color: #fafafa;
+}
+
+#about-overlay p {
+    text-align: left;
+    margin-top: 2vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    color: #fafafa;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+#about-overlay br {
+    line-height: 1vh;
 }
