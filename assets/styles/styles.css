@@ -122,6 +122,7 @@ nav li a:hover:not(#grab-table-button) {
 
 
 /*-------- SOUTH STAND BEER SECTION GLOBAL STYLINGS -------*/
+/* MAKE SURE TO REFERENCE W3CHOOLS CODE FOR FLIP HOVER EFFECT YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
 #south-stand-beer-menu-section h2 {
     font-size: 400%;
     text-transform: uppercase;
@@ -135,16 +136,37 @@ nav li a:hover:not(#grab-table-button) {
     background-color: #3f4042;
     height: 64vh;
     text-align: center;
-    padding-top: 2vh;
 }
 
 .beer-card {
     display: inline-block;
+    align-items: top;
     width: 25%;
     height: 60vh;
+    border-radius: 4px;
     margin: 0 2vw;
     background-color: #dbdddb;
     text-align: center;
+    margin-top: 2vh;
 }
-/* MAKE SURE TO REFERENCE W3CHOOLS CODE FOR FLIP HOVER EFFECT YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
- 
+
+ /*------------ OTHER DRINKS MENU SECTION GLOBAL STYLINGS --------------*/
+
+ .other-drinks-menu-container {
+    width: 100%;
+    background-color: #dbdddb;
+    height: 64vh;
+    text-align: center;
+    padding-top: 2vh;
+ }
+
+ .other-drinks-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    height: 60vh;
+    margin: 0 2vw;
+    background-color: #3f4042;
+    text-align: center;
+    position: relative;
+}
