@@ -164,9 +164,30 @@ nav li a:hover:not(#grab-table-button) {
     display: inline-block;
     vertical-align: top;
     width: 20%;
+    border-radius: 4px;
     height: 60vh;
     margin: 0 2vw;
     background-color: #3f4042;
     text-align: center;
-    position: relative;
+}
+
+.other-drinks-card h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 200%;
+    color:#dbdddb;
+    margin: 10px 0;
+}
+
+.other-drinks-card p {
+    color:#dbdddb;
+}
+
+.other-drinks-menu-item {
+    margin: 20px;
+}
+.other-drinks-menu-item h3 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #dbdbdb ;
 }
