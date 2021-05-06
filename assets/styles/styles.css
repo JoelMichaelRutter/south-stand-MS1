@@ -17,7 +17,7 @@ body {
  h1, h2 {
     font-family: 'Raleway', sans-serif;
  }
-
+/*--------- NAVIGATION GLOBAL STYLINGS -------------*/
 nav {
     width: 100%;
     height: 100px;
@@ -76,6 +76,9 @@ nav li a:hover:not(#grab-table-button) {
     border-bottom: 2px solid #fafafa;
 }
 
+
+
+/*---------- ABOUT SECTION GLOBAL STYLINGS -------*/
 #about-section-taps-image {
     background-image: url('../images/sstaps.jpg');
     background-repeat: no-repeat;
@@ -121,6 +124,12 @@ nav li a:hover:not(#grab-table-button) {
     font-size: 1.2rem;
 }
 
-#about-overlay br {
-    line-height: 1vh;
+
+/*-------- OUR MENU SECTION GLOBAL STYLINGS -------*/
+#menu-section h2 {
+    font-size: 400%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 2vh;
 }
