@@ -121,8 +121,8 @@ nav li a:hover:not(#grab-table-button) {
 }
 
 
-/*-------- OUR MENU SECTION GLOBAL STYLINGS -------*/
-#menu-section h2 {
+/*-------- SOUTH STAND BEER SECTION GLOBAL STYLINGS -------*/
+#south-stand-beer-menu-section h2 {
     font-size: 400%;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -146,7 +146,5 @@ nav li a:hover:not(#grab-table-button) {
     background-color: #dbdddb;
     text-align: center;
 }
-/* MAKE SURE TO REFERENCE W3CHOOLS CODE YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
- /* #forty-twenty-pilsner-card {
-    margin: 0 5%;
-} */
+/* MAKE SURE TO REFERENCE W3CHOOLS CODE FOR FLIP HOVER EFFECT YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
+ 
