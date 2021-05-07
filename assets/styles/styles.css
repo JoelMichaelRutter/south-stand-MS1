@@ -148,8 +148,16 @@ nav li a:hover:not(#grab-table-button) {
     background-color: #dbdddb;
     text-align: center;
     margin-top: 2vh;
+    overflow: hidden;
 }
 
+.beer-card img {
+   object-fit: cover;
+   width: 100%;
+   position: relative;
+   bottom: 5%;
+   
+}
  /*------------ OTHER DRINKS MENU SECTION GLOBAL STYLINGS --------------*/
 
  .other-drinks-menu-container {
