@@ -14,7 +14,7 @@ body {
     background-color: #dbdddb;
  }
 
- h1, h2 {
+ h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
  }
 /*--------- NAVIGATION GLOBAL STYLINGS -------------*/
@@ -134,20 +134,22 @@ nav li a:hover:not(#grab-table-button) {
 .beer-card-container {
     width: 100%;
     background-color: #3f4042;
-    height: 64vh;
+    height: 50rem;
     text-align: center;
 }
 
+#beer-card-flavour {
+    padding-top: 1rem;
+}
 .beer-card {
     display: inline-block;
     align-items: top;
     width: 25%;
-    height: 60vh;
+    height: 90%;
     border-radius: 4px;
-    margin: 0 2vw;
-    background-color: #dbdddb;
+    margin: 2rem 2vw;
+    background-color: #3f4042;
     text-align: center;
-    margin-top: 2vh;
     overflow: hidden;
 }
 
@@ -155,15 +157,23 @@ nav li a:hover:not(#grab-table-button) {
    object-fit: cover;
    width: 100%;
    position: relative;
-   bottom: 5%;
-   
+   bottom: 4rem;
+   z-index: 1;
+}
+
+.beer-card-info {
+    position: relative;
+    bottom: 3.5rem;
+    font-size: 150%;
+    font-weight: bold;
+    color: #dbdbdb;
 }
  /*------------ OTHER DRINKS MENU SECTION GLOBAL STYLINGS --------------*/
 
  .other-drinks-menu-container {
     width: 100%;
     background-color: #dbdddb;
-    height: 64vh;
+    height: 36rem;
     text-align: center;
     padding-top: 2vh;
  }
