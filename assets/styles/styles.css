@@ -284,10 +284,14 @@ footer > div {
     margin-top: 1rem;
 }
 
-.footer-social-icons i {
+#footer-social-icons i {
     display: inline-block;
+    margin-top: 1rem;
+    font-size: 250%;
 }
-.footer-social-icons a {
-    font-size: 200%;
+
+#footer-social-icons a {
     color: #dbdbdb;
+    text-decoration: none;
+    margin: 0 2rem;
 }
