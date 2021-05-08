@@ -231,6 +231,13 @@ footer > div {
     height: 90%;
     background-color: #51576B;
 }
+
+.footer-section hr {
+    width: 90%;
+}
+
+/*--------- FIND US FOOTER SECTION GLOBAL STYLINGS ----------*/
+
 #find-us-footer-section h2 {
     text-transform: uppercase;
     color: #dbdbdb;
@@ -250,9 +257,29 @@ footer > div {
     text-align: left;
     font-size: 130%;
 }
+
 #find-us-footer-section > iframe {
     float: left;
     width: 60%;
     margin-top: 1rem;
     border: 2px solid #D6A419;
+}
+
+/*----------- OPENING TIMES FOOTER SECTION GLOBAL STYLINGS ----------*/
+
+#opening-times-footer-section h2 {
+    text-transform: uppercase;
+    color: #dbdbdb;
+}
+
+#opening-times-footer-section hr {
+    width: 100%;
+}
+#opening-times-footer-section div {
+    display: block;
+    text-transform: uppercase;
+    font-size: 130%;
+    line-height: 1.5rem;
+    color: #dbdbdb;
+    margin-top: 1rem;
 }
