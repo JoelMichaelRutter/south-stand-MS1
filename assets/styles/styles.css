@@ -139,7 +139,9 @@ nav li a:hover:not(#grab-table-button) {
 }
 
 #beer-card-flavour {
-    padding-top: 1rem;
+    padding: 1rem 0 1rem 0;
+    font-size: 150%;
+    color: #dbdbdb;
 }
 .beer-card {
     display: inline-block;
@@ -147,7 +149,7 @@ nav li a:hover:not(#grab-table-button) {
     width: 25%;
     height: 90%;
     border-radius: 4px;
-    margin: 2rem 2vw;
+    margin: 1rem 2vw;
     background-color: #3f4042;
     text-align: center;
     overflow: hidden;
@@ -173,7 +175,7 @@ nav li a:hover:not(#grab-table-button) {
  .other-drinks-menu-container {
     width: 100%;
     background-color: #dbdddb;
-    height: 36rem;
+    height: 50rem;
     text-align: center;
     padding-top: 2vh;
  }
@@ -183,7 +185,7 @@ nav li a:hover:not(#grab-table-button) {
     vertical-align: top;
     width: 20%;
     border-radius: 4px;
-    height: 60vh;
+    height: 90%;
     margin: 0 2vw;
     background-color: #3f4042;
     text-align: center;
@@ -208,4 +210,24 @@ nav li a:hover:not(#grab-table-button) {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #dbdbdb ;
+}
+
+/*---------- FOOTER STYLINGS GLOBAL STYLINGS ------------*/
+footer {
+    height: 15rem;
+    background-color: #51576B;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+footer > div {
+    margin: auto;
+    display: inline-block;
+}
+
+.footer-section {
+    width: 33%;
+    height: 90%;
+    background-color: whitesmoke;
+
 }
