@@ -223,11 +223,36 @@ footer {
 footer > div {
     margin: auto;
     display: inline-block;
+    vertical-align: top;
 }
 
 .footer-section {
-    width: 33%;
+    width: 30%;
     height: 90%;
-    background-color: whitesmoke;
+    background-color: #51576B;
+}
+#find-us-footer-section h2 {
+    text-transform: uppercase;
+    color: #dbdbdb;
+    text-align: left;
+}
 
+#find-us-footer-section div {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #dbdbdb;
+    margin-top: 1rem;
+}
+
+#find-us-footer-section div p {
+    text-transform: uppercase;
+    color: #dbdbdb;
+    text-align: left;
+    font-size: 130%;
+}
+#find-us-footer-section > iframe {
+    float: left;
+    width: 60%;
+    margin-top: 1rem;
+    border: 2px solid #D6A419;
 }
