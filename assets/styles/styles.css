@@ -123,6 +123,14 @@ nav li a:hover:not(#grab-table-button) {
 
 /*-------- SOUTH STAND BEER SECTION GLOBAL STYLINGS -------*/
 /* MAKE SURE TO REFERENCE W3CHOOLS CODE FOR FLIP HOVER EFFECT YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
+#menu-section-top-image {
+    background-image: url('../images/menu-top-image.jpg');
+    background-repeat: none;
+    background-position-x: center;
+    background-position-y: bottom;
+    width: 100%;
+}
+
 #south-stand-beer-menu-section h2 {
     font-size: 400%;
     text-transform: uppercase;
