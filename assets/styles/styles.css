@@ -142,6 +142,7 @@ nav li a:hover:not(#grab-table-button) {
     padding: 1rem 0 1rem 0;
     font-size: 150%;
     color: #dbdbdb;
+    font-weight: bold;
 }
 .beer-card {
     display: inline-block;
@@ -175,7 +176,7 @@ nav li a:hover:not(#grab-table-button) {
  .other-drinks-menu-container {
     width: 100%;
     background-color: #dbdddb;
-    height: 50rem;
+    height: 40rem;
     text-align: center;
     padding-top: 2vh;
  }
@@ -185,7 +186,7 @@ nav li a:hover:not(#grab-table-button) {
     vertical-align: top;
     width: 20%;
     border-radius: 4px;
-    height: 90%;
+    height: 600px;
     margin: 0 2vw;
     background-color: #3f4042;
     text-align: center;
@@ -197,6 +198,7 @@ nav li a:hover:not(#grab-table-button) {
     font-size: 200%;
     color:#dbdddb;
     margin: 10px 0;
+    padding-top: 10px;
 }
 
 .other-drinks-card p {
@@ -273,7 +275,8 @@ footer > div {
 }
 
 #opening-times-footer-section hr {
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
 }
 #opening-times-footer-section div {
     display: block;
@@ -286,7 +289,7 @@ footer > div {
 
 #footer-social-icons i {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 250%;
 }
 
@@ -294,4 +297,22 @@ footer > div {
     color: #dbdbdb;
     text-decoration: none;
     margin: 0 2rem;
+}
+
+/*------- CONTACT FOOTER SECTION GLOBAL STYLINGS --------*/
+
+#contact-section {
+    text-align: right;
+}
+
+#contact-section hr {
+    float: right;
+}
+
+#contact-section div {
+    margin-top: 1rem;
+}
+#contact-section, div h2 p {
+    text-transform: uppercase;
+    color:#dbdbdb;
 }
