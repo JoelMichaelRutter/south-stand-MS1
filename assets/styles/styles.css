@@ -283,3 +283,11 @@ footer > div {
     color: #dbdbdb;
     margin-top: 1rem;
 }
+
+.footer-social-icons i {
+    display: inline-block;
+}
+.footer-social-icons a {
+    font-size: 200%;
+    color: #dbdbdb;
+}
