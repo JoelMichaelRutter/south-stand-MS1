@@ -96,7 +96,7 @@ nav li a:hover:not(#grab-table-button) {
     height: 300px;
     background-color: rgba(181, 138, 27, 0.9);
     /*background-color: rgba(81, 87, 107, 0.7);*/
-    bottom: 50vh;
+    bottom: 25rem;
     margin-left: 8%;
     float: left;
     position: absolute;
@@ -126,9 +126,12 @@ nav li a:hover:not(#grab-table-button) {
 #menu-section-top-image {
     background-image: url('../images/menu-top-image.jpg');
     background-repeat: none;
+    background-size: cover;
+    /*background-attachment: fixed;*/
     background-position-x: center;
-    background-position-y: bottom;
+    background-position-y:  68%;
     width: 100%;
+    height: 25rem;
 }
 
 #south-stand-beer-menu-section h2 {
@@ -179,7 +182,7 @@ nav li a:hover:not(#grab-table-button) {
     font-weight: bold;
     color: #dbdbdb;
 }
- /*------------ OTHER DRINKS MENU SECTION GLOBAL STYLINGS --------------*/
+
 
  .other-drinks-menu-container {
     width: 100%;
@@ -200,6 +203,8 @@ nav li a:hover:not(#grab-table-button) {
     text-align: center;
 }
 
+ /*------------ WORLD BEER MENU GLOBAL STYLINGS --------------*/
+
 .other-drinks-card h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -216,11 +221,50 @@ nav li a:hover:not(#grab-table-button) {
 .other-drinks-menu-item {
     margin: 20px;
 }
+
 .other-drinks-menu-item h3 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #dbdbdb ;
 }
+
+/*------------ SPIRIT MENU CARD GLOBAL STYLINGS ------------*/
+
+.spirit-menu-item h3 {
+    margin: 10px 0 0 0;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #dbdbdb ;
+}
+
+.spirit-menu-item p {
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    font-size 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.spirit-menu-item {
+    margin: 0 0;
+}
+ /*----------- COCKTAIL MENU CARD GLOBAL STYLINGS -----------------------*/
+
+.cocktail-menu-item {
+    margin: 1rem 0;
+}
+
+.cocktail-menu-item h3 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #dbdbdb ;
+}
+
+.cocktail-menu-item p {
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
 
 /*---------- FOOTER STYLINGS GLOBAL STYLINGS ------------*/
 footer {
