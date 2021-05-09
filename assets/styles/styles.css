@@ -216,6 +216,8 @@ nav li a:hover:not(#grab-table-button) {
 
 .other-drinks-card p {
     color:#dbdddb;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .other-drinks-menu-item {
@@ -265,7 +267,13 @@ nav li a:hover:not(#grab-table-button) {
     
 }
 
+/*----------- SOFT DRINKS LIST STYLING -----------*/
 
+.other-drinks-card li {
+    list-style: none;
+    color: #dbdbdb;
+    text-transform: uppercase;
+}
 /*---------- FOOTER STYLINGS GLOBAL STYLINGS ------------*/
 footer {
     height: 15rem;
