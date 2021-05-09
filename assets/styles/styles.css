@@ -79,19 +79,19 @@ nav li a:hover:not(#grab-table-button) {
 
 
 /*---------- ABOUT SECTION GLOBAL STYLINGS -------*/
-#about-section-taps-image {
-    background-image: url('../images/sstaps.jpg');
+#home-section-taps-image {
+    background-image: url('../images/hero-image-optimized.jpg');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 80vh;
+    height: 48rem;
     position: relative;
 }
 
-#about-overlay {
+#home-overlay {
     width: 40%;
     height: 300px;
     background-color: rgba(181, 138, 27, 0.9);
@@ -103,16 +103,16 @@ nav li a:hover:not(#grab-table-button) {
     border-radius: 3px;
 }
 
-#about-overlay h2 {
+#home-overlay h2 {
     text-align: left;
     margin-top: 2vh;
     padding-left: 2vh;
     color: #fafafa;
 }
 
-#about-overlay p {
+#home-overlay p {
     text-align: left;
-    margin-top: 2vh;
+    margin-top: 2rem;
     padding-right: 2vh;
     padding-left: 2vh;
     color: #fafafa;
@@ -120,11 +120,10 @@ nav li a:hover:not(#grab-table-button) {
     font-size: 1.2rem;
 }
 
-
 /*-------- SOUTH STAND BEER SECTION GLOBAL STYLINGS -------*/
-/* MAKE SURE TO REFERENCE W3CHOOLS CODE FOR FLIP HOVER EFFECT YOU TAKE WHEN READY, ADD LINK AND EXPLANATION*/
+
 #menu-section-top-image {
-    background-image: url('../images/menu-top-image.jpg');
+    background-image: url('../images/menu-top-image-optimized.jpg');
     background-repeat: none;
     background-size: cover;
     /*background-attachment: fixed;*/
@@ -242,7 +241,7 @@ nav li a:hover:not(#grab-table-button) {
 .spirit-menu-item p {
     font-family: 'Bitter', serif;
     text-transform: uppercase;
-    font-size 100%;
+    font-size: 100%;
     max-width: 90%;
     margin: 0 auto;
 }
