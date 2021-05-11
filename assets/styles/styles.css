@@ -339,6 +339,7 @@ nav li a:hover:not(#grab-table-button) {
     height: 42rem;
 }
 
+/*-------- STYLINGS FOR BOOKING FORM CONTAINER, CONTENT AND INPUTS -----------*/
 #form-container {
     width: 30%;
     height: 90%;
@@ -350,7 +351,7 @@ nav li a:hover:not(#grab-table-button) {
 
 .form-header {
     margin-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     max-width: 90%;
     color: #dbdbdb;
     font-size: 120%;
@@ -374,7 +375,7 @@ form > label  {
     padding: 0.4rem 0;
 }
 
-/*--------- CODE REFERENCE: This code was pulled from w3schools page at w3schools.com/howto/howto_css_hide_arrow_number.asp --------*/
+/*--------- CODE REFERENCE: This code was pulled from w3schools page at www.w3schools.com/howto/howto_css_hide_arrow_number.asp --------*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -387,22 +388,87 @@ input[type="text"], input[type="email"], input[type="number"], input[type="datet
     height: 30px; 
     background-color: #dbdbdb;   
     border: none;
-    border-radius: 2px;;
-}
-
-input[type="radio"] {
-    display: inline-block;
+    border-radius: 2px;
+    margin-left: 0.3rem;
 }
 
 .radio-label {
-    
+    font-size: 100%;
+    color: #dbdbdb;
 }
 #mail-list-question, #booking-conf-statement {
     margin-left: 2rem;
     color: #dbdbdb;
     margin-top: 0.5rem;
     max-width: 90%;
+    width: 250px;
+}
 
+#booking-conf-statement {
+    position: relative;
+    bottom: 1rem;
+}
+
+#yes-radio-button {
+    position: relative;
+    display: inline-block;
+    left: 21rem;
+    bottom: 3rem;
+
+}
+#no-radio-button {
+    position: relative;
+    display: inline-block;
+    left: 23rem;
+    bottom: 3rem;
+
+}
+
+#booking-conf-disclaimer {
+    position: relative;
+    left: 21rem;
+    bottom: 4.5rem;
+}
+
+input[type="reset"], input[type="submit"] {
+    width: 100px;
+    height: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #dbdbdb;
+    color: #3f4042;
+    margin-left: 25%;
+    transition: color 0.2s;
+    transition: background-color 0.3s;
+}
+
+input[type="reset"] {
+    background-color: #3f4042 ;
+    color: #dbdbdb;
+    border: 1px solid white;
+    margin-left: 18%;
+    transition: color 0.2s;
+    transition: background-color 0.3s;
+}
+
+input[type="reset"]:hover {
+    background-color: #dbdbdb;
+    color: #3f4042;
+    transition-timing-function: ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #D6A419;
+    color: #000;
+    transition-timing-function: ease-in-out;
 }
 /*---------- FOOTER STYLINGS GLOBAL STYLINGS ------------*/
 footer {

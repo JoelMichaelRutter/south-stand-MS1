@@ -53,7 +53,7 @@
                     <input type="number" id="phone-number" name="phone-number" required>
                     <!--Booking date and time selector-->
                     <label for="date&time">Booking Date & Time:</label>
-                    <input type="datetime-local" id="date" required>
+                    <input type="datetime-local" id="date" placeholder="none" required>
                     <!--Group size selector-->
                     <label for="group-size">Group Size:</label>
                     <select id="group-size" name="group-size" required>
@@ -66,10 +66,14 @@
                     <div id="mail-list-question">
                         <p>Would you like to hear more from us via email and receive exclusive offers and discounts?</p>
                     </div>
-                    <label for="mail-list-yes" class="radio-label">Yes</label>
-                    <input type="radio" id="mail-list-yes" name="mail-list-opt-in" value="yes" checked>
-                    <label for="mail-list-no" class="radio-label">No</label>
-                    <input type="radio" id="mail-list-no" name="mail-list-opt-in" value="no">
+                    <div id="yes-radio-button">
+                        <input type="radio" id="mail-list-yes" name="mail-list-opt-in" value="yes" required>
+                        <label for="mail-list-yes" class="radio-label">Yes</label>
+                    </div>
+                    <div id="no-radio-button">
+                        <input type="radio" id="mail-list-no" name="mail-list-opt-in" value="no" required>
+                        <label for="mail-list-no" class="radio-label">No</label>
+                    </div>
                     <!--Booking confirmation disclaimer check box-->
                     <div id="booking-conf-statement">
                         <label for="booking-conf-disclaimer">By checking this box, you accept that your booking is not
@@ -78,7 +82,7 @@
                     <input type="checkbox" id="booking-conf-disclaimer" name="booking-conf-disclamer" value="accept"
                         required>
                     <!-- Submit and reset buttons-->
-                    <input type="reset" value="reset form">
+                    <input type="reset" value="reset">
                     <input type="submit" value="send it!">
                 </form>
             </div>
