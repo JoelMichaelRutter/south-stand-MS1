@@ -327,6 +327,38 @@ nav li a:hover:not(#grab-table-button) {
     color: #dbdbdb;
     text-transform: uppercase;
 }
+
+/*------------- BOOKING FORM PAGE GLOBAL STYLINGS ------------*/
+
+#form-page-container {
+    background-image: url('../images/bar-table-2.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: right 75%;
+    width: 100%;
+    height: 42rem;
+}
+
+#form-page-container section{
+    width: 30%;
+    height: 42rem;
+}
+
+#form-container {
+    width: 30%;
+    height: 90%;
+    background-color: rgba(81, 87, 107, 0.9);
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+}
+
+.form-content {
+    margin-left: 2rem;
+    padding-top: 2rem;
+
+}
+
 /*---------- FOOTER STYLINGS GLOBAL STYLINGS ------------*/
 footer {
     height: 15rem;
