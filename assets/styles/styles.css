@@ -353,12 +353,23 @@ nav li a:hover:not(#grab-table-button) {
     top: 5%;
 }
 
-.form-content {
+.form-header {
     margin-left: 2rem;
     padding-top: 2rem;
+    max-width: 90%;
+    color: #dbdbdb;
+    font-size: 120%;
 
 }
 
+.form-content span {
+    font-style: italic;
+}
+
+
+ /* input {
+    display: block;
+} */
 /*---------- FOOTER STYLINGS GLOBAL STYLINGS ------------*/
 footer {
     height: 15rem;
