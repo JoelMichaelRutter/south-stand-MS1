@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,12 +21,21 @@
             <a href="index.html">
                 <img src="assets/images/whitetranspartent.png" alt="The South Stand Brewery & Taproom" id="logo">
             </a>
-            <ul>
+            <ul id="desktop-nav">
                 <li><a href="index.html" class="link-active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="menu.html">Our Menu</a></li>
                 <li><a href="form.html" id="grab-table-button">Grab a Table</a></li>
             </ul>
+            <label for="toggle" id="burger">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <div class="responsive-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="form.html">Grab a Table</a>
+            </div>
+
         </nav>
     </header>
     <!--About section, contains decoration image, content describing business history and goals-->
