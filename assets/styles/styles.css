@@ -76,21 +76,6 @@ nav li a:hover:not(#grab-table-button) {
     border-bottom: 2px solid #fafafa;
 }
 
-.responsive-menu {
-    display: none;
-}
-
-#toggle, #burger {
-    display: none;
-}
-
-#burger {
-    margin: 0 40px 0 0;
-    font-size: 50px;
-    color: #dbdbdb;
-}
-
-
 
 /*---------- HOME BODY SECTION GLOBAL STYLINGS -------*/
 #home-section-taps-image {
@@ -585,48 +570,4 @@ footer > div {
 #contact-section, div h2 p {
     text-transform: uppercase;
     color:#dbdbdb;
-}
-
-/*------------------MOBILE STYLINGS --------------*/
-@media only screen and (min-width: 320px) {
-    .desktop-nav {
-        display: none;
-    }
-
-    #toggle, #burger {
-        display: block;
-        cursor: pointer;
-        position: relative;
-        left: 50px;
-        top: 15px;
-    }
-
-    #toggle {
-        opacity: 0;
-    }
-
-    #toggle:checked + .responsive-menu {
-        display: block;
-    }
-
-    .responsive-menu {
-        text-align: center;
-        width: 100%;
-        height: 40%;
-        background-color: #3f4042;
-        display: none;
-    }
-
-    .responsive-menu li {
-        text-align: center;
-        width: 100%;
-        display: block;
-        margin: 0;
-    }
-
-    #logo {
-        height: 80px;
-        margin: 10px 0 0 15px;
-        float: left;
-    }
 }
