@@ -35,6 +35,7 @@ body {
 .menu {
     margin: 0 30px 0 0;
     position: relative;
+    z-index: 999;
 }
 
 .menu a {
@@ -139,7 +140,7 @@ body {
     background-size: cover;
     background-position: center 75%;
     background-attachment: fixed;
-    overflow: hidden;
+    /* overflow: hidden; ------ THIS WAS CAUSING THE NAV ISSUE*/ 
     position: relative;
 }
 
@@ -150,7 +151,8 @@ body {
     border-radius: 3px;
     /*background-color: rgba(181, 138, 27, 0.9);*/
     background-color: rgba(81, 87, 107, 0.9);
-    position: relative;
+    position: absolute;
+    left: 20%;
     top: 5rem;
     text-align: center;
 }
@@ -351,11 +353,13 @@ body {
 /*-------- STYLINGS FOR BOOKING FORM CONTAINER, CONTENT AND INPUTS -----------*/
 #form-container {
     width: 30%;
-    height: 90%;
+    height: 610px;
     background-color: rgba(81, 87, 107, 0.9);
     margin: 0 auto;
-    position: relative;
-    top: 5%;
+    position: absolute;
+    top: 14%;
+    left: 35%;
+    z-index: 1;
 }
 
 .form-header {
@@ -606,7 +610,7 @@ footer > div {
         float: right;
         margin-right: 0;
         display: none;
-        /* position: relative; */
+        z-index: 2;
     }
 
     .menu a {
@@ -638,12 +642,12 @@ footer > div {
 
     #home-overlay {
         width: 90%;
-        height: 300px;
+        height: 550px;
         background-color: rgba(181, 138, 27, 0.9);
         /*background-color: rgba(81, 87, 107, 0.7);*/
-        bottom: 25rem;
-        margin-left: 8%;
-        float: left;
+        bottom: 300px;
+        margin-left: 5%;
+        /* float: left; */
         position: relative;
         border-radius: 3px;
     }
