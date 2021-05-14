@@ -147,19 +147,16 @@ body {
 
 #about-us-section {
     width: 60%;
-    height: 32rem;
-    margin: 0 auto;
     border-radius: 3px;
-    /*background-color: rgba(181, 138, 27, 0.9);*/
     background-color: rgba(81, 87, 107, 0.9);
     position: absolute;
     left: 20%;
     top: 5rem;
     text-align: center;
+    padding: 2rem 2rem;
 }
 
 #about-us-section > h2 {
-    padding: 2rem 0 0 2rem;
     font-size: 200%;
     max-width: 90%;
     color: #dbdbdb;
@@ -651,7 +648,6 @@ footer > div {
     #home-overlay {
         position: relative;
         width: 90%;
-        /*height: 400px;*/
         bottom: 35em;
         margin-left: 5%;
     }
@@ -665,6 +661,16 @@ footer > div {
         line-height: 1.1;
         font-size: 100%;
     }
+
+    /*-------------- ABOUT PAGE MOBILE & TABLET STYLINGS -----------*/
+
+    #about-us-section {
+        width: 90%;
+        font-size: 100%;
+        left: 5%;
+        top: 5%;
+    }
+    
 
     /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
 
