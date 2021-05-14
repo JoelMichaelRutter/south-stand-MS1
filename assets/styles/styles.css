@@ -670,7 +670,22 @@ footer > div {
         left: 5%;
         top: 5%;
     }
+
+    #about-us-section > h2 {
+        font-size: 150%;
+        color: #dbdbdb;
+        margin: auto;
+    }
     
+    #about-us-section > p {
+        font-size: 100%;
+        /* max-width: 90%; */
+        font-family: 'Bitter', serif;
+        color: #dbdbdb;
+        padding: 0;
+        text-align: center;
+        margin: auto;
+    }
 
     /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
 
