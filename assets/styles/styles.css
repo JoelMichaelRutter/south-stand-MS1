@@ -648,11 +648,11 @@ footer > div {
     }
 
     #home-overlay {
-    position: absolute;
-    width: 90%;
-    height: 400px;
-    bottom: 18em;
-    margin-left: 5%;
+        position: relative;
+        width: 90%;
+        height: 400px;
+        bottom: 35em;
+        margin-left: 5%;
     }
 
     #home-overlay h2 {
@@ -671,6 +671,7 @@ footer > div {
         height: 600px;
         text-align: center;
         padding-top: 0;
+        position: absolute;
     }
 
     .footer-section {
