@@ -687,6 +687,24 @@ footer > div {
         margin: auto;
     }
 
+    /*--------------- MENU PAGE MOBILE & TABLET STYLINGS ---------------*/
+
+    #menu-section-top-image {
+        height: 10rem;
+    }
+    #south-stand-beer-menu-section h2 {
+        font-size: 270%;
+        letter-spacing: 5px;
+        margin: 0 0;
+    }
+
+    #beer-card-flavour {
+        font-size: 100%;
+        color: #dbdbdb;
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
     /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
 
     footer {
