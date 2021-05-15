@@ -212,6 +212,7 @@ body {
     color: #dbdbdb;
     font-weight: bold;
 }
+
 .beer-card {
     display: inline-block;
     align-items: top;
@@ -608,7 +609,7 @@ footer > div {
         float: right;
         margin-right: 0;
         display: none;
-        z-index: 2;
+        z-index: 20;
     }
 
     .menu a {
@@ -692,18 +693,37 @@ footer > div {
     #menu-section-top-image {
         height: 10rem;
     }
+
     #south-stand-beer-menu-section h2 {
         font-size: 270%;
         letter-spacing: 5px;
-        margin: 0 0;
+        margin: 0.5rem 0;
+    }
+
+    .beer-card-container {
+        height: 100%;
+        padding-bottom: 1rem;
     }
 
     #beer-card-flavour {
-        font-size: 100%;
-        color: #dbdbdb;
         max-width: 90%;
-        margin-left: 5%;
+        margin: 0 auto;
     }
+
+    .beer-card {
+        display: block;
+        width: 90%;
+        margin: 0 auto 1rem auto;
+        height: auto;
+    }
+
+    .beer-card img {
+        bottom: 0;
+     }
+    
+
+
+
 
     /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
 
