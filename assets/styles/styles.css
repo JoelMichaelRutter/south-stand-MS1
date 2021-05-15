@@ -698,16 +698,20 @@ footer > div {
         font-size: 270%;
         letter-spacing: 5px;
         margin: 0.5rem 0;
+        z-index: 1;
     }
 
     .beer-card-container {
         height: 100%;
         padding-bottom: 1rem;
+        z-index: 2;
     }
+
 
     #beer-card-flavour {
         max-width: 90%;
         margin: 0 auto;
+        z-index: 3;
     }
 
     .beer-card {
@@ -715,16 +719,34 @@ footer > div {
         width: 90%;
         margin: 0 auto 1rem auto;
         height: auto;
+        z-index: 4;
     }
 
     .beer-card img {
         bottom: 0;
      }
+
+     .beer-card-info {
+        bottom: 0;
+    }
+
+    .other-drinks-menu-container {
+        height: 100%;
+        padding: 1em 0;
+     }
     
+     .other-drinks-card {
+        display: block;
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+        padding-bottom: 5px;
+     }
 
-
-
-
+     .cocktail-menu-item h3 {
+        font-size: 110%;
+    }
+    
     /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
 
     footer {
