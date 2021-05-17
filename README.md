@@ -18,6 +18,6 @@ Like any hospitality business, the promotion of the ethos is important to engage
 The main points I considered during the strategy in terms of the business’ goals were:
 - Increase awareness of business and brand.
 - Increase footfall in the venue.
-- Increase sale of business’ own craft brewed beer against the other offerings provided through user interaction with the content.
+- Increase sale of business’ own craft brewed beer against the other offerings provided through the content.
 - Generate an enticing exciting environment to leave users wanting to explore the site and visit the venue.
 
