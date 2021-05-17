@@ -182,7 +182,7 @@ body {
 
 #menu-section-top-image {
     background-image: url('../images/menu-top-image-optimized.jpg');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     /*background-attachment: fixed;*/
     background-position-x: center;
@@ -337,7 +337,7 @@ body {
 
 #form-page-container {
     background-image: url('../images/bar-table-2.jpg');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: right 75%;
     width: 100%;
@@ -357,7 +357,7 @@ body {
     margin: 0 auto;
     position: absolute;
     top: 14%;
-    left: 35%;
+    left: 15%;
     z-index: 1;
 }
 
@@ -707,7 +707,6 @@ footer > div {
         z-index: 2;
     }
 
-
     #beer-card-flavour {
         max-width: 90%;
         margin: 0 auto;
@@ -747,6 +746,71 @@ footer > div {
         font-size: 110%;
     }
     
+    /*---------------BOOKING FORM PAGE MOBILE STYLINGS - EXTRA STYLINGS FOR TABLETS CAN BE FOUND IN FOLLOWING MEDIA QUERY -------------*/
+
+    #form-page-container {
+        height: 55rem;
+    }
+
+    #form-container {
+        width: 100%;
+        height: 780px;
+        position: absolute;
+        top: 125px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .form-header {
+        margin-left: 1rem;
+        padding-top: 1rem;
+        max-width: 90%;
+        font-size: 90%;
+    }
+
+    form > label {
+        font-size: 120%;
+        margin-left: 1rem;
+        text-align: left;
+        padding: 0.4rem 0;
+    }
+
+    input[type="text"], input[type="email"], input[type="number"], input[type="datetime-local"], select {
+        width: 212px;
+        height: 25px;
+        margin-left: 1rem;
+    }
+    
+    #mail-list-question, #booking-conf-statement {
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    #yes-radio-button {
+        position: relative;
+        display: inline-block;
+        left: 1rem;
+        bottom: 2rem;
+    }
+    
+    #no-radio-button {
+        position: relative;
+        display: inline-block;
+        left: 3rem;
+        bottom: 2rem;
+    }
+
+    #booking-conf-disclaimer {
+        position: relative;
+        left: 1rem;
+        bottom: 4rem;
+    }
+
+    input[type="reset"] {
+        margin-left: 0;
+    }
+    
+
     /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
 
     footer {
