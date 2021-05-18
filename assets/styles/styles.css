@@ -1190,10 +1190,10 @@ and (max-width: 1024px) {
     }
 }
 
-
-
 /*------------- LAPTOP SCREEN STYLINGS -----------*/
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+@media only screen 
+and (min-width: 1024px) 
+and (max-width: 1440px) {
 
     /*------- HOME PAGE LAPTOP STYLINGS ----------*/
     #home-overlay {
@@ -1229,5 +1229,70 @@ and (max-width: 1024px) {
     #form-container {
         width: 45%;
         top: 130px;
+    }
+
+    /*---------- FOOTER LAPTOP STYLINGS ----------*/
+    #find-us-footer-section div p {
+        clear: both;
+        display: inline-block;
+        font-size: 100%;
+        position: relative;
+        right: 1.5rem;
+    }
+
+    #find-us-footer-section > iframe {
+        clear: both;
+        height: 8rem;
+        width: 90%;
+    }
+}
+
+/*------------ LARGER LAPTOP SCREEN & DESKTOP STYLINGS - GLOBAL STYLINGS TO TAKE OVER FOLLOWING MAX WIDTH ------*/
+@media only screen 
+and (min-width: 1440px) 
+and (max-width: 1600px) {
+    /*------- HOME SCREEN LARGE LAPTOP & DESKTOP STYLINGS ----------*/
+    #home-overlay {
+        clear: both;
+        width: 50%;
+        top: 30%;
+        display: table;
+    }
+    /*------- MENU PAGE LARGE LAPTOP & DESKTOP STYLINGS ----------*/
+    .other-drinks-menu-container {
+        height: 100%;
+        padding-top: 0;
+    }
+
+    .other-drinks-card {
+        width: 40%;
+        display: inline-block;
+        margin: 1rem 2vh;
+        height: 100%;
+        padding-bottom: 15px;
+    }
+
+    .cocktail-menu-item {
+        padding: 10px 0;
+    }
+
+    /*-------- BOOKING FORM LARGE LAPTOP & DESKTOP STYLINGS ---------*/
+    #form-container {
+        width: 40%;
+        top: 130px;
+    }
+    /*-------- FOOTER LARGE LAPTOP AND DESKTOP STYLINGS ----------*/
+    #find-us-footer-section div p {
+        clear: both;
+        display: inline-block;
+        font-size: 120%;
+        position: relative;
+        right: 1.5rem;
+    }
+
+    #find-us-footer-section > iframe {
+        clear: both;
+        height: 8rem;
+        width: 90%;
     }
 }
