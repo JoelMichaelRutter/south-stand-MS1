@@ -886,7 +886,9 @@ and (max-width: 425px) {
 }
 
 /*-------------------- TABLET VIEW STYLES -------------*/
-@media only screen and (min-width: 425px) and (max-width: 1024px) {
+@media only screen 
+and (min-width: 425px) 
+and (max-width: 1024px) {
     /*---------TABLET NAV STYLES - DUPLICATED FROM MOBILE VIEW -------*/
     #logo {
         height: 80px;
@@ -938,7 +940,7 @@ and (max-width: 425px) {
         transition-timing-function: ease-in-out;
     }
 
-    /*---------- TABLET PORTRAIT HOME PAGE STYLINGS - DUPLICATED FROM MOBILE VIEW ------------*/
+    /*---------- TABLET HOME PAGE STYLINGS - DUPLICATED FROM MOBILE VIEW ------------*/
 
     #home-section-taps-image {
         background-position-x: 60%;
@@ -1208,7 +1210,7 @@ and (max-width: 425px) {
     }
 
     .beer-card-info {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .other-drinks-card {
@@ -1221,5 +1223,11 @@ and (max-width: 425px) {
 
     .cocktail-menu-item {
         padding: 7px 0;
+    }
+
+    /*---------- BOOKING FORM LAPTOP STYLINGS --------*/
+    #form-container {
+        width: 45%;
+        top: 130px;
     }
 }
