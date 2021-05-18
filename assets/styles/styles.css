@@ -585,10 +585,10 @@ footer > div {
     color:#dbdbdb;
 }
 
-/*-------------------- MOBILE & TABLET VIEW STYLES -------------*/
-@media only screen and (max-width: 768px) {
+/*-------------------- MOBILE VIEW STYLES -------------*/
+@media only screen and (min-width: 320px) and (max-width: 425px) {
     
-    /*----------MOBILE & TABLET NAVIGATION STYLINGS------------*/
+    /*----------MOBILE NAVIGATION STYLINGS------------*/
     #logo {
         height: 80px;
         margin: 10px 0 0 10px;
@@ -639,7 +639,7 @@ footer > div {
         transition-timing-function: ease-in-out;
     }
 
-    /*--------HOME PAGE MOBILE & TABLET STYLINGS-----------*/
+    /*--------HOME PAGE MOBILE STYLINGS-----------*/
 
     #home-section-taps-image {
         background-position-x: 60%;
@@ -663,7 +663,7 @@ footer > div {
         font-size: 100%;
     }
 
-    /*-------------- ABOUT PAGE MOBILE & TABLET STYLINGS -----------*/
+    /*-------------- ABOUT PAGE MOBILE STYLINGS -----------*/
 
     #about-us-section {
         width: 90%;
@@ -688,7 +688,7 @@ footer > div {
         margin: auto;
     }
 
-    /*--------------- MENU PAGE MOBILE & TABLET STYLINGS ---------------*/
+    /*--------------- MENU PAGE MOBILE STYLINGS ---------------*/
 
     #menu-section-top-image {
         height: 10rem;
@@ -811,7 +811,7 @@ footer > div {
     }
     
 
-    /*---------------FOOTER MOBILE AND TABLET STYLINGS------------*/
+    /*---------------FOOTER MOBILE STYLINGS------------*/
 
     footer {
         height: 600px;
@@ -882,4 +882,167 @@ footer > div {
         text-decoration: none;
         margin: 0 1rem;
     }
+}
+
+/*-------------------- TABLET PORTRAIT VIEW STYLES -------------*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    /*---------TABLET NAV STYLES - DUPLICATED FROM MOBILE VIEW -------*/
+    #logo {
+        height: 80px;
+        margin: 10px 0 0 10px;
+        float: left;
+    }
+
+    #burger {
+        display: block;
+        cursor: pointer;
+        width: 26px;
+        float: right;
+    }
+
+    .menu {
+        text-align: center;
+        width: 70%;
+        background-color: #3f4042;
+        float: right;
+        margin-right: 0;
+        display: none;
+        z-index: 20;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+
+
+    #grab-table-button {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        color: #dbdbdb;
+        background-color: #3f4042;
+        margin: 0 10px;
+        text-transform: uppercase;
+        font-size: 125%;
+        letter-spacing: 1px;
+        line-height: 100px;
+    }
+
+    #grab-table-button:hover {
+        color: #D6A419;
+        border-bottom: 2px solid #fafafa;
+        transition-timing-function: ease-in-out;
+    }
+
+    /*---------- TABLET PORTRAIT HOME PAGE STYLINGS - DUPLICATED FROM MOBILE VIEW ------------*/
+
+    #home-section-taps-image {
+        background-position-x: 60%;
+        height: 600px;
+    }
+
+    #home-overlay {
+        position: relative;
+        width: 90%;
+        bottom: 35em;
+        margin-left: 5%;
+    }
+
+    #home-overlay h2 {
+        text-align: center;
+    }
+
+    #home-overlay p {
+        text-align: center;
+        line-height: 1.1;
+        font-size: 100%;
+    }
+
+    /*-------------- ABOUT PAGE TABLET PORTRAIT STYLINGS - DUPLICATED FROM MOBILE VIEW -----------*/
+
+    #about-us-section {
+        width: 90%;
+        font-size: 100%;
+        left: 5%;
+        top: 5%;
+    }
+
+    #about-us-section > h2 {
+        font-size: 150%;
+        color: #dbdbdb;
+        margin: auto;
+    }
+    
+    #about-us-section > p {
+        font-size: 100%;
+        font-family: 'Bitter', serif;
+        color: #dbdbdb;
+        padding: 0;
+        text-align: center;
+        margin: auto;
+    }
+
+        /*--------------- MENU PAGE TABLET PORTRAIT VIEW STYLINGS - DUPLICATED FROM MOBILE, SOME VALUES CHANGED TO FIT VIEWPORT SIZE ---------------*/
+
+        #menu-section-top-image {
+            height: 10rem;
+        }
+    
+        #south-stand-beer-menu-section h2 {
+            font-size: 350%;
+            letter-spacing: 5px;
+            margin: 0.5rem 0;
+            z-index: 1;
+        }
+    
+        .beer-card-container {
+            height: 100%;
+            padding-bottom: 1rem;
+            z-index: 2;
+        }
+    
+        #beer-card-flavour {
+            max-width: 90%;
+            margin: 0 auto;
+            z-index: 3;
+        }
+    
+        .beer-card {
+            display: block;
+            width: 70%;
+            margin: 0 auto;
+            height: auto;
+            z-index: 4;
+            padding-top: 1rem;
+        }
+    
+        .beer-card img {
+            bottom: 0;
+         }
+    
+         .beer-card-info {
+            bottom: 0;
+        }
+    
+        .other-drinks-menu-container {
+            height: 100%;
+            padding: 1em 0;
+         }
+        
+         .other-drinks-card {
+            display: block;
+            width: 75%;
+            height: 100%;
+            margin: 0 auto;
+            padding-bottom: 5px;
+         }
+    
+         .cocktail-menu-item h3 {
+            font-size: 110%;
+        }
+        
+
 }
