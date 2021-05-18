@@ -1189,9 +1189,13 @@ footer > div {
 /*-------- SMALL LAPTOP MEDIA QUERY TO PREVENT DEGRADATION IN CONTENT FOR BOOKING FORM & FOOTER -------*/
 @media only screen and (min-width: 768px) and (max-width: 1166px) {
 
+    #home-overlay {
+        width: 60%;
+        bottom: 0;
+    }
     #form-container {
-        width: 65%;
-        top: 15%;
+        width: 70%;
+        top: 125px;
     }
 
     /*----- FOOTER STYLINGS DUPLICATED FROM TABLET FOOTER ------------------*/
@@ -1268,7 +1272,7 @@ footer > div {
     }
 }
 
-/*-------- MEDIA QUERY FOR FORM ON LARGER LAPTOP SCREENSIZES -----*/
+/*-------- MEDIA QUERY FOR BOOKING FORM ON LARGER LAPTOP SCREENSIZES -----*/
 @media only screen and (min-width: 1166px) and (max-width: 1440px) {
     #form-container {
         display: table;
@@ -1278,15 +1282,13 @@ footer > div {
     }
 }
 
-
-
-/*------------- LAPTOP STYLINGS -----------*/
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+/*------------- HOME & MENU PAGE LAPTOP STYLINGS -----------*/
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
 
     /*------- HOME PAGE LAPTOP STYLINGS ----------*/
     #home-overlay {
         width: 50%;
-        bottom: 40%;
+        bottom: 25%;
     }
     
     /*------- MENU PAGE LAPTOP STYLINGS ----------*/
@@ -1305,6 +1307,4 @@ footer > div {
         height: 100%;
         padding-bottom: 15px;
     }
-
-    /*--------- FORM LARGER SCREEN LAPTOP SCREEN STYLINGS ----------*/
-   
+}
