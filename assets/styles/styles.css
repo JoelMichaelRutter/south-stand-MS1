@@ -1043,6 +1043,152 @@ footer > div {
          .cocktail-menu-item h3 {
             font-size: 110%;
         }
+
+        /*---------------BOOKING FORM PAGE TABLET STYLINGS - MOSTLY DUPLICATED FROM MOBILE VIEW, SOME VALUES CHANGED TO FIT LARGER SCREEN SIZE -------------*/
+
+    #form-page-container {
+        height: 58rem;
+    }
+
+    #form-container {
+        display: table;
+        width: 70%;
+        height: 650px;
+        padding-bottom: 1rem;
+        position: absolute;
+        top: 125px;
+        left: 15%;
+    }
+
+    .form-header {
+        margin-left: 1rem;
+        padding-top: 1rem;
+        max-width: 90%;
+        font-size: 120%;
+    }
+
+    form > label {
+        font-size: 120%;
+        margin-left: 1rem;
+        text-align: left;
+        padding: 0.4rem 0;
+    }
+
+    input[type="text"], input[type="email"], input[type="number"], input[type="datetime-local"], select {
+        width: 212px;
+        height: 25px;
+        margin-left: 1rem;
+    }
+    
+    #mail-list-question, #booking-conf-statement {
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    #yes-radio-button {
+        position: relative;
+        display: inline-block;
+        left: 1rem;
+        bottom: 2rem;
+    }
+    
+    #no-radio-button {
+        position: relative;
+        display: inline-block;
+        left: 3rem;
+        bottom: 2rem;
+    }
+
+    #booking-conf-disclaimer {
+        position: relative;
+        left: 1rem;
+        bottom: 4rem;
+    }
+
+    input[type="reset"] {
+        margin-left: 2rem;
+    }
+
+    input[type="submit"] {
+        margin-left: 2rem;
+    }
+
+
+
+
+
+
+        /*---------------FOOTER TABLET STYLINGS - DUPLICATED FROM MOBILE VIEW------------*/
+
+    footer {
+        height: 600px;
+        text-align: center;
+        padding-top: 0;
+        position: absolute;
+    }
+
+    .footer-section {
+        width: 90%;
+        height: 30%;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    #find-us-footer-section h2 {
+       text-align: center;
+    }
+
+    #find-us-footer-section hr {
+        width: 100%;
+    }
+    
+    #find-us-footer-section div p {
+        text-align: left;
+        font-size: 100%;
+        display: inline-block;
+    }
+
+    #find-us-footer-section > iframe {
+        width: 100%;
+        height: 80px;
+        margin-top: 0.5em;
+    }
+
+    #opening-times-footer-section div {
+        font-size: 100%;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #opening-times-footer-section hr {
+        width: 100%;
+    }
+
+    #contact-section h2 {
+        text-align: center;
+    }
+
+    #contact-section hr {
+        width: 100%;
+    }
+
+    #contact-section p {
+        font-size: 80%;
+        text-align: center;
+    }
+
+    #footer-social-icons {
+        margin-top: 0;
+        text-align: center;
+        position: relative;
+        bottom: 1em;
+    }
+
+    #footer-social-icons a {
+        color: #dbdbdb;
+        text-decoration: none;
+        margin: 0 1rem;
+    }
         
 
 }
