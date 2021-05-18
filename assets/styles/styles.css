@@ -1055,6 +1055,7 @@ footer > div {
         width: 70%;
         height: 650px;
         padding-bottom: 1rem;
+        padding-right: 1rem;
         position: absolute;
         top: 125px;
         left: 15%;
@@ -1185,6 +1186,99 @@ footer > div {
         margin: 0 1rem;
     }
 }
+/*-------- SMALL LAPTOP MEDIA QUERY TO PREVENT DEGRADATION IN CONTENT FOR BOOKING FORM & FOOTER -------*/
+@media only screen and (min-width: 768px) and (max-width: 1166px) {
+
+    #form-container {
+        width: 65%;
+        top: 15%;
+    }
+
+    /*----- FOOTER STYLINGS DUPLICATED FROM TABLET FOOTER ------------------*/
+    /*---------------FOOTER TABLET STYLINGS - DUPLICATED FROM MOBILE VIEW------------*/
+
+    footer {
+        height: 600px;
+        text-align: center;
+        padding-top: 0;
+        position: absolute;
+    }
+
+    .footer-section {
+        width: 90%;
+        height: 30%;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    #find-us-footer-section h2 {
+       text-align: center;
+    }
+
+    #find-us-footer-section hr {
+        width: 100%;
+    }
+    
+    #find-us-footer-section div p {
+        text-align: left;
+        font-size: 100%;
+        display: inline-block;
+    }
+
+    #find-us-footer-section > iframe {
+        width: 100%;
+        height: 80px;
+        margin-top: 0.5em;
+    }
+
+    #opening-times-footer-section div {
+        font-size: 100%;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #opening-times-footer-section hr {
+        width: 100%;
+    }
+
+    #contact-section h2 {
+        text-align: center;
+    }
+
+    #contact-section hr {
+        width: 100%;
+    }
+
+    #contact-section p {
+        font-size: 80%;
+        text-align: center;
+    }
+
+    #footer-social-icons {
+        margin-top: 0;
+        text-align: center;
+        position: relative;
+        bottom: 1em;
+    }
+
+    #footer-social-icons a {
+        color: #dbdbdb;
+        text-decoration: none;
+        margin: 0 1rem;
+    }
+}
+
+/*-------- MEDIA QUERY FOR FORM ON LARGER LAPTOP SCREENSIZES -----*/
+@media only screen and (min-width: 1166px) and (max-width: 1440px) {
+    #form-container {
+        display: table;
+        width: 45%;
+        padding-right: 1rem;
+        top: 8rem;
+    }
+}
+
+
 
 /*------------- LAPTOP STYLINGS -----------*/
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
@@ -1201,9 +1295,16 @@ footer > div {
         padding-top: 0;
     }
 
+    .beer-card-info {
+        font-size: 120%;
+    }
+
     .other-drinks-card {
         width: 40%;
         margin: 1rem 2vh;
-        /* height: 100%; */
+        height: 100%;
+        padding-bottom: 15px;
     }
-}
+
+    /*--------- FORM LARGER SCREEN LAPTOP SCREEN STYLINGS ----------*/
+   
