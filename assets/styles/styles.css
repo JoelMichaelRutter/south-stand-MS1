@@ -452,6 +452,7 @@ input[type="reset"], input[type="submit"] {
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 input[type="submit"] {
@@ -460,6 +461,7 @@ input[type="submit"] {
     margin-left: 25%;
     transition: color 0.2s;
     transition: background-color 0.3s;
+    -webkit-appearance: none;
 }
 
 input[type="reset"] {
