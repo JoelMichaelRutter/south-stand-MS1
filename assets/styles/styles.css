@@ -586,7 +586,9 @@ footer > div {
 }
 
 /*-------------------- MOBILE VIEW STYLES -------------*/
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 425px) {
     
     /*----------MOBILE NAVIGATION STYLINGS------------*/
     #logo {
@@ -810,7 +812,6 @@ footer > div {
         margin-left: 0;
     }
     
-
     /*---------------FOOTER MOBILE STYLINGS------------*/
 
     footer {
@@ -885,7 +886,7 @@ footer > div {
 }
 
 /*-------------------- TABLET PORTRAIT VIEW STYLES -------------*/
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
     /*---------TABLET NAV STYLES - DUPLICATED FROM MOBILE VIEW -------*/
     #logo {
         height: 80px;
@@ -1186,8 +1187,8 @@ footer > div {
         margin: 0 1rem;
     }
 }
-/*-------- SMALL LAPTOP MEDIA QUERY TO PREVENT DEGRADATION IN CONTENT FOR BOOKING FORM & FOOTER -------*/
-@media only screen and (min-width: 768px) and (max-width: 1166px) {
+/* -------- SMALL LAPTOP MEDIA QUERY TO PREVENT DEGRADATION IN CONTENT FOR BOOKING FORM & FOOTER -------*/
+/* @media only screen and (min-width: 768px) and (max-width: 1166px) {
 
     #home-overlay {
         width: 60%;
@@ -1196,12 +1197,12 @@ footer > div {
     #form-container {
         width: 70%;
         top: 125px;
-    }
+    } */
 
-    /*----- FOOTER STYLINGS DUPLICATED FROM TABLET FOOTER ------------------*/
+    /* ----- FOOTER STYLINGS DUPLICATED FROM TABLET FOOTER ------------------*/
     /*---------------FOOTER TABLET STYLINGS - DUPLICATED FROM MOBILE VIEW------------*/
 
-    footer {
+    /* footer {
         height: 600px;
         text-align: center;
         padding-top: 0;
@@ -1270,10 +1271,10 @@ footer > div {
         text-decoration: none;
         margin: 0 1rem;
     }
-}
+} */
 
 /*-------- MEDIA QUERY FOR BOOKING FORM ON LARGER LAPTOP SCREENSIZES -----*/
-@media only screen and (min-width: 1166px) and (max-width: 1440px) {
+@media only screen and (min-width: 1166px) and (max-width: 1600px) {
     #form-container {
         display: table;
         width: 45%;
@@ -1282,8 +1283,8 @@ footer > div {
     }
 }
 
-/*------------- HOME & MENU PAGE LAPTOP STYLINGS -----------*/
-@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+/*------------- HOME & MENU PAGE LARGE LAPTOP SCREEN STYLINGS -----------*/
+@media only screen and (min-width: 1166px) and (max-width: 1600px) {
 
     /*------- HOME PAGE LAPTOP STYLINGS ----------*/
     #home-overlay {
