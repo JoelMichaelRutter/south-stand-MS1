@@ -1184,6 +1184,26 @@ footer > div {
         text-decoration: none;
         margin: 0 1rem;
     }
-        
+}
 
+/*------------- LAPTOP STYLINGS -----------*/
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    /*------- HOME PAGE LAPTOP STYLINGS ----------*/
+    #home-overlay {
+        width: 50%;
+        bottom: 40%;
+    }
+    
+    /*------- MENU PAGE LAPTOP STYLINGS ----------*/
+    .other-drinks-menu-container {
+        height: 100%;
+        padding-top: 0;
+    }
+
+    .other-drinks-card {
+        width: 40%;
+        margin: 1rem 2vh;
+        /* height: 100%; */
+    }
 }
