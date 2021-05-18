@@ -202,7 +202,7 @@ body {
 .beer-card-container {
     width: 100%;
     background-color: #3f4042;
-    height: 50rem;
+    height: 100%;
     text-align: center;
 }
 
@@ -229,13 +229,13 @@ body {
    object-fit: cover;
    width: 100%;
    position: relative;
-   bottom: 4rem;
+   bottom: 0;
    z-index: 1;
 }
 
 .beer-card-info {
     position: relative;
-    bottom: 3.5rem;
+    bottom: 0;
     font-size: 150%;
     font-weight: bold;
     color: #dbdbdb;
@@ -1112,11 +1112,6 @@ footer > div {
     input[type="submit"] {
         margin-left: 2rem;
     }
-
-
-
-
-
 
         /*---------------FOOTER TABLET STYLINGS - DUPLICATED FROM MOBILE VIEW------------*/
 
