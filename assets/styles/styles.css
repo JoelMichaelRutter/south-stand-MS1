@@ -885,7 +885,7 @@ and (max-width: 425px) {
     }
 }
 
-/*-------------------- TABLET PORTRAIT VIEW STYLES -------------*/
+/*-------------------- TABLET VIEW STYLES -------------*/
 @media only screen and (min-width: 425px) and (max-width: 1024px) {
     /*---------TABLET NAV STYLES - DUPLICATED FROM MOBILE VIEW -------*/
     #logo {
@@ -1187,109 +1187,18 @@ and (max-width: 425px) {
         margin: 0 1rem;
     }
 }
-/* -------- SMALL LAPTOP MEDIA QUERY TO PREVENT DEGRADATION IN CONTENT FOR BOOKING FORM & FOOTER -------*/
-/* @media only screen and (min-width: 768px) and (max-width: 1166px) {
 
-    #home-overlay {
-        width: 60%;
-        bottom: 0;
-    }
-    #form-container {
-        width: 70%;
-        top: 125px;
-    } */
 
-    /* ----- FOOTER STYLINGS DUPLICATED FROM TABLET FOOTER ------------------*/
-    /*---------------FOOTER TABLET STYLINGS - DUPLICATED FROM MOBILE VIEW------------*/
 
-    /* footer {
-        height: 600px;
-        text-align: center;
-        padding-top: 0;
-        position: absolute;
-    }
-
-    .footer-section {
-        width: 90%;
-        height: 30%;
-        text-align: center;
-        margin-top: 1em;
-    }
-
-    #find-us-footer-section h2 {
-       text-align: center;
-    }
-
-    #find-us-footer-section hr {
-        width: 100%;
-    }
-    
-    #find-us-footer-section div p {
-        text-align: left;
-        font-size: 100%;
-        display: inline-block;
-    }
-
-    #find-us-footer-section > iframe {
-        width: 100%;
-        height: 80px;
-        margin-top: 0.5em;
-    }
-
-    #opening-times-footer-section div {
-        font-size: 100%;
-        line-height: 1.5rem;
-        margin-top: 1rem;
-    }
-
-    #opening-times-footer-section hr {
-        width: 100%;
-    }
-
-    #contact-section h2 {
-        text-align: center;
-    }
-
-    #contact-section hr {
-        width: 100%;
-    }
-
-    #contact-section p {
-        font-size: 80%;
-        text-align: center;
-    }
-
-    #footer-social-icons {
-        margin-top: 0;
-        text-align: center;
-        position: relative;
-        bottom: 1em;
-    }
-
-    #footer-social-icons a {
-        color: #dbdbdb;
-        text-decoration: none;
-        margin: 0 1rem;
-    }
-} */
-
-/*-------- MEDIA QUERY FOR BOOKING FORM ON LARGER LAPTOP SCREENSIZES -----*/
-@media only screen and (min-width: 1166px) and (max-width: 1600px) {
-    #form-container {
-        display: table;
-        width: 45%;
-        padding-right: 1rem;
-        top: 8rem;
-    }
-}
-
-/*------------- HOME & MENU PAGE LARGE LAPTOP SCREEN STYLINGS -----------*/
-@media only screen and (min-width: 1166px) and (max-width: 1600px) {
+/*------------- LAPTOP SCREEN STYLINGS -----------*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
 
     /*------- HOME PAGE LAPTOP STYLINGS ----------*/
     #home-overlay {
+        clear: both;
         width: 50%;
-        bottom: 25%;
+        top: 30%;
+        display: table;
     }
     
     /*------- MENU PAGE LAPTOP STYLINGS ----------*/
@@ -1304,8 +1213,13 @@ and (max-width: 425px) {
 
     .other-drinks-card {
         width: 40%;
+        display: inline-block;
         margin: 1rem 2vh;
         height: 100%;
         padding-bottom: 15px;
+    }
+
+    .cocktail-menu-item {
+        padding: 7px 0;
     }
 }
