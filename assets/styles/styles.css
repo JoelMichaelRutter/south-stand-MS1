@@ -157,14 +157,11 @@ body {
 
 #about-us-section > h2 {
     font-size: 200%;
-    max-width: 90%;
     color: #dbdbdb;
 }
 
 #about-us-section > p {
-    padding: 1rem 0 0 2rem;
     font-size: 130%;
-    max-width: 90%;
     font-family: 'Bitter', serif;
     color: #dbdbdb;
 }
