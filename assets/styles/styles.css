@@ -92,7 +92,7 @@ body {
 
 /*---------- HOME BODY SECTION GLOBAL STYLINGS -------*/
 #home-section-taps-image {
-    background-color: rgba(black, black, black, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     background-image: url('../images/sstaps-optimised.jpg');
     background-repeat: no-repeat;
     background-position-x: right;
@@ -534,6 +534,17 @@ footer > div {
     width: 60%;
     margin-top: 1rem;
     border: 2px solid #D6A419;
+    z-index: 2;
+    position: relative;
+}
+
+#iframe-no-load {
+    position: relative;
+    bottom: 2.5rem;
+    right: 20rem;
+    color: #dbdbdb;
+    font-size: 110%;
+    z-index: 1;
 }
 
 /*----------- OPENING TIMES FOOTER SECTION GLOBAL STYLINGS ----------*/
@@ -849,6 +860,11 @@ and (max-width: 425px) {
         margin-top: 0.5em;
     }
 
+    #iframe-no-load {
+        right: 0rem;
+        bottom: 3rem;
+    }    
+
     #opening-times-footer-section div {
         font-size: 100%;
         line-height: 1.5rem;
@@ -1154,6 +1170,11 @@ and (max-width: 1024px) {
         margin-top: 0.5em;
     }
 
+    #iframe-no-load {
+        right: 0rem;
+        bottom: 3rem;
+    }    
+
     #opening-times-footer-section div {
         font-size: 100%;
         line-height: 1.5rem;
@@ -1238,14 +1259,18 @@ and (max-width: 1440px) {
         display: inline-block;
         font-size: 100%;
         position: relative;
-        right: 1.5rem;
     }
 
     #find-us-footer-section > iframe {
         clear: both;
-        height: 8rem;
-        width: 90%;
+        height: 5rem;
+        width: 100%;
     }
+
+    #iframe-no-load {
+        right: 0rem;
+        bottom: 3.5rem;
+    }    
 }
 
 /*------------ LARGER LAPTOP SCREEN & DESKTOP STYLINGS - GLOBAL STYLINGS TO TAKE OVER FOLLOWING MAX WIDTH ------*/
@@ -1296,4 +1321,10 @@ and (max-width: 1600px) {
         height: 8rem;
         width: 90%;
     }
+
+    #iframe-no-load {
+        right: 0rem;
+        bottom: 5rem;
+        max-width: 70%;
+    } 
 }
