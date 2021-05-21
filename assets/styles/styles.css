@@ -167,6 +167,7 @@ body {
     font-size: 130%;
     font-family: 'Bitter', serif;
     color: #dbdbdb;
+    padding-top: 1em;
 }
 
 .about-subsection {
@@ -694,10 +695,8 @@ and (max-width: 425px) {
     
     #about-us-section > p {
         font-size: 100%;
-        /* max-width: 90%; */
         font-family: 'Bitter', serif;
         color: #dbdbdb;
-        padding: 0;
         text-align: center;
         margin: auto;
     }
@@ -1000,7 +999,6 @@ and (max-width: 1024px) {
         font-size: 100%;
         font-family: 'Bitter', serif;
         color: #dbdbdb;
-        padding: 0;
         text-align: center;
         margin: auto;
     }
