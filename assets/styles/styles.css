@@ -623,6 +623,9 @@ and (max-width: 425px) {
         float: right;
         margin-right: 0;
         display: none;
+        position: absolute;
+        top: 100px;
+        left: 30%;
         z-index: 20;
     }
 
@@ -925,6 +928,9 @@ and (max-width: 1024px) {
         float: right;
         margin-right: 0;
         display: none;
+        position: absolute;
+        top: 100px;
+        left: 30%;
         z-index: 20;
     }
 
@@ -1005,7 +1011,7 @@ and (max-width: 1024px) {
         /*--------------- MENU PAGE TABLET PORTRAIT VIEW STYLINGS - DUPLICATED FROM MOBILE, SOME VALUES CHANGED TO FIT VIEWPORT SIZE ---------------*/
 
         #menu-section-top-image {
-            height: 10rem;
+            height: 15rem;
         }
     
         #south-stand-beer-menu-section h2 {
