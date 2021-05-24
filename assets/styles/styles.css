@@ -239,6 +239,13 @@ body {
     color: #dbdbdb;
 }
 
+#other-drink-menu-heading {
+    font-size: 400%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
 /*-------- OTHER DRINKS MENU SECTION GLOBAL STYLINGS -------*/
  .other-drinks-menu-container {
     width: 100%;
