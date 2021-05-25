@@ -23,7 +23,7 @@ For ease of reference, I will display the user stories and an explanation of how
    * The business-critical information to the user is displayed in the footer which is the norm in terms of information layout and is what is expected by users. This is confirmed in my user testing.   
 
 In addition to the above, I completed some limited user testing where I provided the site to a sample of my work colleagues and asked them to answer some feedback questions. You can see the answers by navigating to the spreadsheet attached [here](link to spreadsheet).  
-# Functionality and Compatability Testing
+# **Functionality and Compatability Testing**
 Please click [here](link to spreadsheet) to access the spreadsheet checklists for full details of all manual functionality and compatibility testing completed across a range of devices. To summarise the manual testing, the website has been tested by myself in both portrait and landscape mode on the following devices, browsers & operating systems:
 * Google Pixel 3 – Google Chrome, MS Edge, Firefox – Android 11
 * Motorola Moto G7 – Google Chrome, MS Edge, Firefox – Android 10
@@ -33,11 +33,23 @@ Please click [here](link to spreadsheet) to access the spreadsheet checklists fo
 * Macbook Pro 13” – Google Chrome, Safari – Mac OSX Mojave
 * Dell Inspiron Laptop – Google Chrome, MS Edge, Internet Explorer, Firefox – Windows 10
 * AOC Desktop Monitor – Google Chrome, Firefox, MS Edge, Internet Explorer – Windows 10  
-The site has also been tested inside Google Chrome dev tools and is fully responsive to all device sizes.  
-In conclusion, the website whilst not written in a responsive framework the site is:
+
+The site has also been tested inside Google Chrome dev tools and is fully responsive to all device sizes. In conclusion, the website whilst not written in a responsive framework the site is:
 * Cross compatible across device sizes as demonstrated through manual testing and in dev tools. 
 * Cross compatible across browsers as demonstrated through manual testing. 
 * Cross compatible across operating systems as demonstrated by manual testing.
+# Performance Testing
+To test the performance of the website, I used Google Lighthouse inside Chrome Dev Tools. Below I will outline each pages performance with screenshots of the lighthouse reports:
+## index.html  
+![index.html Google Lighthouse Screenshot](assets/read-me-images/index-lighthouse.png)  
+## about.html
+![about.html Google Lighthouse Screenshot](assets/read-me-images/about-lighthouse.png)
+## menu.html
+![menu.html Google Lighthouse Screenshot](assets/read-me-images/menu-lighthouse.png)
+## form.html
+![form.html Google Lighthouse Screenshot](assets/read-me-images/form-lighthouse.png)  
+# Code Validation
+All of the HTML and CSS code was validated in the w3c [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) validators via direct input. All code passed with no errors but some warnings due to vendor prefixes.
 
 
 
