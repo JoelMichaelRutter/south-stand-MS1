@@ -73,13 +73,10 @@ The colour palette for this project was developed in line with the themes of the
 1. Sleek, simple, and professional 
 2. Robust yet friendly
 3. Enticing  
-
 You can explore my colour palette in the image below:
 ![ColourPalette](assets/read-me-images/south-stand-color-palette.png)
-I used the above colour palette to make the design accessible - always using the lighter shades on darker backgrounds as my main font colour. This also added to the professional feel of the page and preventing jarring contrasts. 
-
-Below you will find in-depth considerations about the colour selection and the themes the colours promote - 
-
+I used the above colour palette to make the design accessible - always using the lighter shades on darker backgrounds as my main font colour. This also added to the professional feel of the page and preventing jarring contrasts.  
+Below you will find in-depth considerations about the colour selection and the themes the colours promote -  
 * #### **(#3f4042)** - To reflect my first two themes, I chose a sleek, dark grey to serve as the background colour of my navigation bar which is arguably one of the most important elements displayed on the site, as it appears on all pages and has a high degree of importance to the user due to its function. For consistency, I also introduced this colour into other elements such as content cards, containers, and buttons.
 * #### **(#d6a419)** – Whilst it is important to have a professional feel to the website, I wanted to deliver the theme of friendliness and introduce a community-feel for the user. I chose a warm orange to contrast and complement the dark grey. I also chose this colour based on its similarity to the colour of pale ale which is one of the main products sold by the business. I used this colour on the pseudo class for my navigation links so that when the user hovers over the link, the colour of the text turns from very light grey to orange providing visual feedback as to what function the user is completing. 
 * #### **RGBA (181, 138, 27 0.9)** – To ensure consistency, I used a [HEX to RGBA converter](http://hex2rgba.devoth.com/) to convert my orange hex colour into a RGBA value. I lowered the alpha value ever so slightly and used it as the background colour for my homepage overlay. This allows my enticing home background image to be seen through it without degrading the contrast or readability of the overlay.
@@ -168,6 +165,12 @@ Below I will list the variety of technology I used during the development proces
 ### **Wireframes**
 * **Pencil & Paper** - for original concept drafts.
 * **[Miro](https://miro.com/login/)** - Was used to advance my wireframes and concepts in a digital space.  
+### Other
+* **[Colourspace](https://mycolor.space/?hex=%233F4044&sub=1)** - For help with choosing a colour palette, specifically the twisted spot palette.
+* **[Online Image Resizer](https://resizeimage.net/)** - For reducing image size in terms of resolution and compression.
+* **[Image Compressor](https://imagecompressor.com/)** - For compressing images without resizing.
+* **[Iframe Generator](https://html-css-js.com/html/generator/iframe/)** - Used to generate an iframe element for my footer.
+* **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README.md and TESTING.md document.
 
 
 
