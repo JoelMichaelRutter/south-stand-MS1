@@ -170,7 +170,20 @@ Below I will list the variety of technology I used during the development proces
 * **[Online Image Resizer](https://resizeimage.net/)** - For reducing image size in terms of resolution and compression.
 * **[Image Compressor](https://imagecompressor.com/)** - For compressing images without resizing.
 * **[Iframe Generator](https://html-css-js.com/html/generator/iframe/)** - Used to generate an iframe element for my footer.
-* **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README.md and TESTING.md document.
+* **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README and TESTING documents.  
+# Deployment
+The finalised version of the site is deployed on GitHub Pages. Here are the steps I followed to deploy the site:
+1.	Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
+2.	In the top menu of the repository, select the settings option.
+![Git Hub Settings Option Screenshot](assets/read-me-images/deploy2.PNG)
+3.	Scroll down the settings page until you find the GitHub Pages option and click it.  
+![Git Hub Pages Option Inside Settings](assets/read-me-images/deploy3.PNG)
+4.	On the GitHub pages section, locate the dropdown that displays the word “None”. Click the dropdown and select the “Master” or “Main” branch.  
+![Git Hub Pages Branch Selector Screenshot](assets/read-me-images/deploy4.PNG)
+5.	The page will refresh automatically and provide a link to the deployed site in the uppermost section. Click this link to load the deployed site.  
+![Git Hub Pages Deployed Site Link Screenshot](assets/read-me-images/deploy5.PNG)
+6.	If the site does not display straight away, it may be because GitHub pages is preparing the site, wait for a few minutes and follow the previous step again.
+
 
 
 
