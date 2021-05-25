@@ -20,7 +20,7 @@ For the South Stand Brewery & Taproom, I wanted to create an enticing, user-frie
    * #### [Colours](##ColourChoices)
    * #### [Typography](##TypographyChoices)
    * #### [Imagery and Media](##ImageryandMedia)
-   * #### [Iconography](#Inconography)
+   * #### [Iconography](##InconographyChoices)
 * ### [Functional Features](#FunctionalFeatures)
 * ### [Technologies](#Technologies)
 * ### [Testing]()
@@ -113,6 +113,64 @@ I used a Canva template to create the beer label images and added my logo. Once 
 * **[Sin Bin Pale Ale Image](https://bit.ly/3hCP1vM)**
 * **[40/20 Pilsner Image](https://bit.ly/3yox6im)**
 * **[Scrum Milk Stout Image](https://bit.ly/3yp2c9K)**
+## InconographyChoices
+I used iconography from [Font Awesome](https://fontawesome.com/). I decided to limit my use of iconography throughout the site as I felt from a user perspective the site achieved what it needed to without the widespread use of icons. I chose consistently styled social media icons for Facebook, Instagram, and Twitter – positioning them below the contact details section of the footer as this is where the user would expect to see them, therefore, increasing my success of the user following the business on social media. 
+# **FunctionalFeatures**
+Below I will list the application's features from the intended perspective of the user, (links to the corresponding page inside the site are implemented inside the headings) - 
+### **[Index Page](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)**
+* **Navigation Bar** - The navigation is positioned at the top of viewport on all device sizes. The navigation is consistently styled throughout every page. When displayed on a laptop or desktop, the content is displayed inline. For the mobile and tablet view, the use of CSS media queries calls alternative styling with a hamburger menu and a collapsible block navigation menu. The content displayed within is as follows:
+* **South Stand Brewery & Taproom Logo** – This operates as a link to the homepage as is the norm with many other web applications.
+* **Home Navigation Link** – This serves as a link to the homepage and is in place for users that may be unfamiliar with the norms of web user experience.
+* **About Navigaton Link** – This navigation link takes the user to the about.html page where they can learn about the history, attitude, and ethos of the business. 
+* **Our Menu Navigation Link** – This navigation link takes the user to the drinks menu page where they can discover the various craft beers brewed by the business and the products offered at the taproom.
+* **Grab a Table Navigation Link** – One of the main goals of the business is to increase footfall. I styled this navigation link more specifically within CSS, using inverted colours to make it clear as a call to action button, making it stand out. Using inverted colours and isolating it with wider margins from the rest of the links increases the chances of the users’ eyes being drawn to it, therefore if they are more likely to see the link then it should help me achieve my goal of increasing footfall. Clicking this link takes the user to the form.html page where they can use a html form to submit a booking request.
+* **Home Overlay** – One of the bar’s themes is friendliness so I used the homepage overlay to inject some warmth into the page and provide a little bit more information about the business. The themes of robustness, sleekness, and professionalism come through via the design, colour and imagery but I thought it was important to create some content in line with the businesses themes to resonate with the user on an emotional level displayed at the start.
+* **Footer** – The footer is consistent across all pages and is almost always partially revealed when the user lands on any page - prompting a positive experience as it isn’t taking up too much room on the page, preventing an information overload, or covering up the key information about the beer selection or how to book a table. However, within the footer there are three sections containing important business information, so I have built the footer in a way if the user scrolls ever so slightly downwards, they can still interact with the page but also get the important business information they require with minimal effort. 
+   * **Find Us Footer Section** - This section enables the user to find the address of the bar with a Google Maps iframe which when clicked, opens Google Maps with the address pinned on a separate tab or in the mobile application – making it easy for the user to plan their journey.
+   * **Opening Times Footer Section** - This section enables the user to find the business’ opening hours.
+   * **Contact Us** – This footer section provides the user with a contact email address and telephone number for the business. Due to the nature of social media often being used as a primary channel of contact, I included three social media icons from Font Awesome as links to the business’ social media channels underneath.
+### **[About Page](https://joelmichaelrutter.github.io/south-stand-MS1/about.html)**
+* **About Page Overlay** - The about overlay is in place to inform the user about the history, ethos, and attitude of the business. The content contained within is the focus of this page.  
+### **[Our Menu Page](https://joelmichaelrutter.github.io/south-stand-MS1/menu.html)**
+The Our Menu page contains several sections where the user can discover the beers, cocktails and drinks offered in the taproom and their prices. Throughout all the menu content, the written text has been designed to embed with the themes of the site, it is informal, friendly, and enticing. Below is a breakdown of the content:
+* **South Stand Craft Beer section** – To meet the business goal of increasing the sale of its own beer, the first section of content the customer can see when they scroll is the South Stand Craft Beer selection. This section enables the user to discover the brand in more detail. The brewery is currently producing three separate craft beers. They are split into three cards - positioned inline at equal intervals: Sin Bin Pale Ale, 40/20 Pilsner and Scrum Milk Stout. The positioning of the section is above the other offerings giving it higher semantic value than those below – hopefully increasing sales by highlighting the business’ unique selling point. The section has a container with a background colour which features the same grey colour of the navigation to create a link.
+* **Other Drinks Menu section** – To appeal to a wider user base, the additional drinks offered by the business are detailed in the section below the South Stand Beer Section. To contrast, I set the container background colour for the other drinks’ cards to that of the main font colour. The contrast is not jarring, is pleasing to the user’s eye and most importantly, is clear to read. I set the background colour of the other drinks’ cards to that of the footer for colour consistency throughout the page. The other drinks offered by the business are split into four cards going left to right in order of business preference:
+    1.	**World Beer Card** – First is the world beer card which provides the user with information about the excellent cultivated beer offerings other than the business own brewed craft beer. 
+    2. **Spirits Card** – In this card, the user can view the wide selection of spirits available at the bar.
+    3. **Cocktails Card** – In the cocktails card, the business appeals to a wider user base as users who may not be interested in beer can see that the business can cater for them.
+    4. **Wine and Soft Drinks Card** – Finally, we have the wine and soft drinks card. The business has three wines displayed as ‘top picks’ and a selection of soft drinks which again opens the business up to a wider user base. 
+### **[Grab a Table Page](https://joelmichaelrutter.github.io/south-stand-MS1/form.html)**
+On this page, the customer can use a html form to book a table for their visit. In the element, I set the action to GET to prevent a 405 error. On a real, live site this would be set to POST when integrated with a backend system and database. The form is positioned in such a manner to compliment the background image of the page. The header content on the form is inviting and enticing to the user further promoting the business themes. All form inputs are validated to ensure that the data collected is fit for purpose. The inputs inside the form are as follows:
+* **Name (text input)** – For the business to learn the customer’s name.
+* **Email address (email input)** – So that the business has a channel of communication with the user and can confirm bookings.
+* **Contact Number (number input)** – So that the business has a channel of communication with the user and can confirm bookings. I prefixed this input in my CSS code to remove the counter at the side of the input to prevent a negative user experience if the customer clicked it once they had entered their number.
+* **Booking Date and Time (datetime-local input)** – This input opens a date and time selector so the user can select when they wish to visit.
+* **Group Size (select input)** – This allows the user to select how big their group size is and is also beneficial information for the business so that they can understand whether they can facilitate the booking. There are several options to choose from to make filling the form in easier for the user and provides more valid data to the business.
+* **Mailing List Opt-In (radio button group)** – In line with the business goals of generating an exciting community of locals with the bar at the centre, the user has a chance to opt-in or out of further communications. I originally planned for one of these to be checked by default but then considered, if this were a real site, I would have to consider GDPR concerns as well as the user experience. If I had kept it how it was, the user would have unknowingly consented if they only glanced over the question. The input is set as required so the user must read the label and decide whether they would like to be contacted.
+* **Booking Confirmation Disclaimer (checkbox input)** – This input field allows the business to set expectations to the user regarding their booking and asks them to confirm that they understand that without booking confirmation, they are not guaranteed a table.
+* **Reset Button (reset input)** – The reset button allows the user to reset the form if they make a mistake or their browser fills in information automatically. This button has a pseudo hover class applied to it to change the colour and provide visual feedback to the user as to what they are doing.
+* **Send It! Button (submit button)** – Finally, we have the submit button. This is styled in opposite colours to the reset button and has a pseudo class applied to change its colours when the user hovers over it to provide visual feedback to the user. The positioning of the send it button on the right is its natural place from a user perspective as we read in English from the left to the right, so the submit button should be the final thing the user looks at.
+# TechnologiesUsed
+Below I will list the variety of technology I used during the development process:
+### **Operating Systems**
+* **[Windows 10](https://www.microsoft.com/en-gb/windows/get-windows-10)**
+* **[Mac OSX Mojave](https://en.wikipedia.org/wiki/MacOS_Mojave)**
+### **GitPod** - was used as an Integrated Development Environment.  
+### **Languages**
+* **[HTML5](https://en.wikipedia.org/wiki/HTML5)**
+* **[CSS3](https://en.wikipedia.org/wiki/CSS)**  
+### **Frameworks**
+* **[Google Fonts](https://fonts.google.com/)** - for typography
+* **[Font Awesome](https://fontawesome.com/)** - for iconography  
+### **Version Contol**
+* **[Git](https://en.wikipedia.org/wiki/Git)** - was used as a version control system.
+* **[GitHub](https://en.wikipedia.org/wiki/GitHub)** - was used as a code repository and deployment platform.  
+### **Wireframes**
+* **Pencil & Paper** - for original concept drafts.
+* **[Miro](https://miro.com/login/)** - Was used to advance my wireframes and concepts in a digital space.  
+
+
+
 
 
 
