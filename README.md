@@ -10,7 +10,7 @@ For the South Stand Brewery & Taproom, I wanted to create an enticing, user-frie
 3. **Enticing** – Normal e-commerce or B2B web applications have a focus on providing a lot of information, or at least having it available to a user if they wish to see it. I will adopt elements of this approach, however, to generate interest and footfall, I wanted to create a site that felt enticing and leave users wanting more through interesting content and tempting background imagery.
 ## Table of Contents
 * ### [Deployed Website](#DeployedWebsite)
-* ### [Demonstration](#Demonstration)
+* ### [Demonstration](#SiteDemonstration)
 * ### [User Experience](#UserExperience)
     * #### [Business Goals](###BusinessGoals)
     * #### [User Stories](###UserStories)
@@ -22,18 +22,18 @@ For the South Stand Brewery & Taproom, I wanted to create an enticing, user-frie
    * #### [Imagery and Media](##ImageryandMedia)
    * #### [Iconography](##InconographyChoices)
 * ### [Functional Features](#FunctionalFeatures)
-* ### [Technologies](#Technologies)
+* ### [Technologies](#TechnologiesUsed)
 * ### [Testing]()
 * ### [Deployment](#Deployment)
-    * #### [Forking](#Forking)
-    * #### [Cloning](#Cloning)
+    * #### [Forking](#Forkingtherepository)
+    * #### [Cloning](#Cloningtherepository)
 * ### [Project Reflection](Reflection)
 * ### [Further Development Scope](#FurtherDevelopmentScope)
-* ### [Credits](#Credits)
-* ### [Acknowledgement](#Acknowledgment)
+* ### [Credits](#ProjectCredits)
+* ### [Acknowledgement](#Acknowledgments)
 # [**DeployedWebsite**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
 By clicking the hyperlinked header above, you can access the final deployed site hosted on GitHub Pages.
-# Demonstration
+# SiteDemonstration
 ## [Am I Responsive?](http://ami.responsivedesign.is/)
 Below you can see an image of the final site in the Am I Resonsive tool which shows the fantastic level of responsivity of the site to a number of viewports. Attached the above header is a link to the Am I Responsive tool; should you wish to use it yourself.
 
@@ -170,7 +170,9 @@ Below I will list the variety of technology I used during the development proces
 * **[Online Image Resizer](https://resizeimage.net/)** - For reducing image size in terms of resolution and compression.
 * **[Image Compressor](https://imagecompressor.com/)** - For compressing images without resizing.
 * **[Iframe Generator](https://html-css-js.com/html/generator/iframe/)** - Used to generate an iframe element for my footer.
-* **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README and TESTING documents.  
+* **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README and TESTING documents. 
+# **Testing**  
+P 
 # Deployment
 The finalised version of the site is deployed on GitHub Pages. Here are the steps I followed to deploy the site:
 1.	Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
@@ -183,6 +185,53 @@ The finalised version of the site is deployed on GitHub Pages. Here are the step
 5.	The page will refresh automatically and provide a link to the deployed site in the uppermost section. Click this link to load the deployed site.  
 ![Git Hub Pages Deployed Site Link Screenshot](assets/read-me-images/deploy5.PNG)
 6.	If the site does not display straight away, it may be because GitHub pages is preparing the site, wait for a few minutes and follow the previous step again.
+## **Forkingtherepository**
+Should you wish to use the site code inside the repository without affecting the original repository, you can make a fork and create a copy of the repository which you can view and amend the code within. To create a fork, follow these steps:
+1. Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
+2. In the top right-hand corner of the repository, you will see three buttons just below your profile icon. The rightmost button is called “fork”. Click this button.
+![Fork Button Screenshot](assets/read-me-images/fork1.PNG)
+3. The repository will now be copied to your own GitHub account.
+## **Cloningtherepository**
+You can create a clone of the repository inside your development environment. To do this, follow these steps:
+1. Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
+2. Whilst in the repository, you will see the various files contained within. Above this list, you will see a button labelled “code”. The button will have a small download icon beside it.  
+![Cloning Button Screenshot](assets/read-me-images/clone1.PNG)
+3.	When you click this icon, a small dropdown will open. Inside the dropdown will be the URL for the deployed site. Copy this URL by clicking the clipboard icon.  
+![Cloning Dropdown Screenshot](assets/read-me-images/clone2.PNG)
+4.	Open the Git Pod integrated development environment. 
+5.	Whilst in the development environment, navigate to the bash terminal.
+6.	In the bash terminal, enter “git clone”, then paste in the URL copied from the GitHub repository and hit enter.
+![Cloning Terminal Screenshot](assets/read-me-images/clone3.PNG)
+7.	A clone of all files will now be pulled into the workspace.
+# **ProjectReflection**
+I have really enjoyed the project despite some of blockers and challenges, and I am really pleased with the result. The site looks polished and how I imagined it before I started so it’s brilliant to see how it has come together, utilising the skills I have learnt on the course, and from my extracurricular reading and research.  I have a few considerations that I would like to share about the development process.  
+* If I was to do this again, I would 100% use a responsive framework such as CSS flexbox, grid, or Bootstrap. Making the site respond to a variety of devices was challenging without the use of such frameworks. Despite this, I think that the traditional approach benefitted me in terms of browser compatibility as prior to the testing stage, I was testing in different browsers with very few, if any, compatibility issues. I look forward to using responsive frameworks in my future projects. 
+# **FurtherDevelopmentScope**
+I will continue to revisit this code as I develop further to apply my new skills. There are a few specific considerations that I would like to voice:
+* I would like to include more scope for user interaction which I think I will develop with the JavaScript module coming up. One thing that I really wanted to do was have detailed beer profiles appear on the opposite sides of the beer cards which would flip over when the user interacted with them.
+* I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issues as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox within which the input works as intended.
+* I would develop the form further to provide a submission successful or unsuccessful message to the user for further visual feedback. 
+* Based on user feedback, I would also develop a gallery of images and add it as an extra page to provide users with some visual reference of what the venue looks like to aid in location and add to the enticing theme of the site.
+# **ProjectCredits**
+## Content
+* **[Vox Bar, Huddersfield](https://www.facebook.com/VoxBarHuddersfield/)** - For the general idea of creating a bar and their amazing cocktail recipes.
+## **Code**
+* **[Code Institute’s Full Stack Software Development Course](https://codeinstitute.net/)** - For there course modules so that I could skip back and review course content to help me.
+* **[Stack Overflow Community](https://stackoverflow.com/)** - For helping me find my way around problems and suggesting fixes.
+* **[W3 Schools](https://www.w3schools.com/)** - For serving as a quick dictionary of declatations and values.
+* **[Caler Edwards](https://www.youtube.com/watch?v=xMTs8tAapnQ)** - For his video tutorial on creating a pure CSS responsive navigation menu (styles implemented were my own).
+## **ProjectAcknowledgements**
+* **The Slack Community** - For letting me bounce bits of code off them and for exposing me to new ways of doing things.
+* **Code Institute Tutor Support** - For pushing me in the right direction with tricky bugs.
+* **My Mentor** - Chris Quinn for his helpful feedback, coding genius and for being all-around sound guy.
+
+
+
+
+
+
+
+
 
 
 
