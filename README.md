@@ -1,10 +1,7 @@
 # [**South Stand Brewery & Taproom**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
 ## Milestone Project 1
 ### General Purpose and Introduction
-This web application is for a fictitious micro-brewery and taproom based in Warrington. The brewery fills a gap in the market as there are limited options for locals to enjoy an intimate and bespoke drinking experience in the town. In addition, most bars in the area tend to be part of a chain - conforming to the stereotypical ‘pub’ image, with limited beer choices and little online presence – therefore missing out a large demographic of younger people. 
-
-For the South Stand Brewery & Taproom, I wanted to create an enticing, user-friendly site that reflects the following themes - 
-
+This web application is for a fictitious micro-brewery and taproom based in Warrington. The brewery fills a gap in the market as there are limited options for locals to enjoy an intimate and bespoke drinking experience in the town. In addition, most bars in the area tend to be part of a chain - conforming to the stereotypical ‘pub’ image, with limited beer choices and little online presence – therefore missing out a large demographic of younger people. For the South Stand Brewery & Taproom, I wanted to create an enticing, user-friendly site that reflects the following themes -  
 1. **Sleek, simple, and professional** – A professional design that will stand out compared to other venues in the sector.  I wanted ease of learning and use and aim to keep it very contained so that it can be used with minimal navigation to other pages.
 2. **Robust yet friendly** – The brewery and taproom dynamic would appeal to a ‘hipster’ audience. If you look at other companies that offer the similar dynamics such as Founders Brewing or Brewdog, the typography, copy, images and branding are targeted at their key demographic. Whilst it is important to consider the culture of the audience, one of the business goals of the site is to increase awareness and in course footfall to the venue itself. On that basis, I will be using typography, images, and colour to give the effect of a rugged, no-nonsense bar where beer is the passion, but using calls to action and content to promote a friendly atmosphere.
 3. **Enticing** – Normal e-commerce or B2B web applications have a focus on providing a lot of information, or at least having it available to a user if they wish to see it. I will adopt elements of this approach, however, to generate interest and footfall, I wanted to create a site that felt enticing and leave users wanting more through interesting content and tempting background imagery.
@@ -27,16 +24,15 @@ For the South Stand Brewery & Taproom, I wanted to create an enticing, user-frie
 * ### [Deployment](#Deployment)
     * #### [Forking](#Forkingtherepository)
     * #### [Cloning](#Cloningtherepository)
-* ### [Project Reflection](Reflection)
+* ### [Project Reflection](#ProjectReflection)
 * ### [Further Development Scope](#FurtherDevelopmentScope)
 * ### [Credits](#ProjectCredits)
-* ### [Acknowledgement](#Acknowledgments)
+* ### [Acknowledgement](#ProjectAcknowledgments)
 # [**DeployedWebsite**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
 By clicking the hyperlinked header above, you can access the final deployed site hosted on GitHub Pages.
 # SiteDemonstration
 ## [Am I Responsive?](http://ami.responsivedesign.is/)
-Below you can see an image of the final site in the Am I Resonsive tool which shows the fantastic level of responsivity of the site to a number of viewports. Attached the above header is a link to the Am I Responsive tool; should you wish to use it yourself.
-
+Below you can see an image of the final site in the Am I Resonsive tool which shows the fantastic level of responsivity of the site to a number of viewports. Attached the above header is a link to the Am I Responsive tool; should you wish to use it yourself.  
 ![Image](assets/read-me-images/ss-amiresponsive.PNG)
 # UserExperience
 In this section, I will discuss the user experience considerations I implemented during the development process.
@@ -209,42 +205,19 @@ I have really enjoyed the project despite some of blockers and challenges, and I
 # **FurtherDevelopmentScope**
 I will continue to revisit this code as I develop further to apply my new skills. There are a few specific considerations that I would like to voice:
 * I would like to include more scope for user interaction which I think I will develop with the JavaScript module coming up. One thing that I really wanted to do was have detailed beer profiles appear on the opposite sides of the beer cards which would flip over when the user interacted with them.
-* I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issues as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox within which the input works as intended.
+* I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issue as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox within which the input works as intended.
 * I would develop the form further to provide a submission successful or unsuccessful message to the user for further visual feedback. 
 * Based on user feedback, I would also develop a gallery of images and add it as an extra page to provide users with some visual reference of what the venue looks like to aid in location and add to the enticing theme of the site.
 # **ProjectCredits**
-## Content
+## **Content**
 * **[Vox Bar, Huddersfield](https://www.facebook.com/VoxBarHuddersfield/)** - For the general idea of creating a bar and their amazing cocktail recipes.
 ## **Code**
 * **[Code Institute’s Full Stack Software Development Course](https://codeinstitute.net/)** - For there course modules so that I could skip back and review course content to help me.
 * **[Stack Overflow Community](https://stackoverflow.com/)** - For helping me find my way around problems and suggesting fixes.
 * **[W3 Schools](https://www.w3schools.com/)** - For serving as a quick dictionary of declatations and values.
 * **[Caler Edwards](https://www.youtube.com/watch?v=xMTs8tAapnQ)** - For his video tutorial on creating a pure CSS responsive navigation menu (styles implemented were my own).
-## **ProjectAcknowledgements**
+# **ProjectAcknowledgements**
 * **The Slack Community** - For letting me bounce bits of code off them and for exposing me to new ways of doing things.
 * **Code Institute Tutor Support** - For pushing me in the right direction with tricky bugs.
+* **My Partner** - Charlotte Howard for her marketing genius and helping me write copy.
 * **My Mentor** - Chris Quinn for his helpful feedback, coding genius and for being all-around sound guy.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
