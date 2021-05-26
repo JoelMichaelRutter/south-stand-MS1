@@ -838,7 +838,7 @@ and (max-width: 425px) {
     /*---------------FOOTER MOBILE STYLINGS------------*/
 
     footer {
-        height: 600px;
+        height: 615px;
         text-align: center;
         padding-top: 0;
         position: absolute;
@@ -909,7 +909,7 @@ and (max-width: 425px) {
         margin-top: 0;
         text-align: center;
         position: relative;
-        bottom: 1em;
+        bottom: 0.5rem;
     }
 
     #footer-social-icons a {
@@ -1156,7 +1156,7 @@ and (max-width: 1024px) {
         /*---------------FOOTER TABLET STYLINGS - DUPLICATED FROM MOBILE VIEW------------*/
 
     footer {
-        height: 600px;
+        height: 615px;
         text-align: center;
         padding-top: 0;
         position: absolute;
@@ -1228,7 +1228,7 @@ and (max-width: 1024px) {
         margin-top: 0;
         text-align: center;
         position: relative;
-        bottom: 1em;
+        bottom: 0.5rem;
     }
 
     #footer-social-icons a {
