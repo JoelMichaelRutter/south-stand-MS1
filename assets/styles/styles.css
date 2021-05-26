@@ -897,6 +897,7 @@ and (max-width: 425px) {
     #contact-section p {
         font-size: 80%;
         text-align: center;
+        color: inherit;
     }
 
     #footer-social-icons {
