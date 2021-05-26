@@ -28,15 +28,14 @@ Please click [here](link to spreadsheet) to access the spreadsheet checklists fo
 * Google Pixel 3 – Google Chrome, MS Edge, Firefox – Android 11
 * Motorola Moto G7 – Google Chrome, MS Edge, Firefox – Android 10
 * iPhone 6 Plus – Safari 12 – iOS 12.2.5
-* iPad 6th Gen 
-* HP Elitebook – Google Chrome, MS Edge, Firefox, Internet Explorer – Windows 10
+* iPad 6th Gen - Safari 14 - iOS 14.4
+* HP Elitebook – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop)– Windows 10
 * Macbook Pro 13” – Google Chrome, Safari – Mac OSX Mojave
 * Dell Inspiron Laptop – Google Chrome, MS Edge, Internet Explorer, Firefox – Windows 10
-* AOC Desktop Monitor – Google Chrome, Firefox, MS Edge, Internet Explorer – Windows 10  
-
+* AOC Desktop Monitor – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop) – Windows 10  
 The site has also been tested inside Google Chrome dev tools and is fully responsive to all device sizes. In conclusion, the website whilst not written in a responsive framework the site is:
 * Cross compatible across device sizes as demonstrated through manual testing and in dev tools. 
-* Cross compatible across browsers as demonstrated through manual testing. 
+* Cross compatible across browsers as demonstrated through manual testing - one caveat here is that the datetime-local input field is buggy on older versions of Safari and not compatible at all by IE and Firefox for desktop. Despite this, the input does downgrade to a text field which still allows input it just means the data submitted by users on this browsers will be inconsistent with those that use Google Chrome or Edge where the feature is supported. 
 * Cross compatible across operating systems as demonstrated by manual testing.
 # Performance Testing
 To test the performance of the website, I used Google Lighthouse inside Chrome Dev Tools. Below I will outline each pages performance with screenshots of the lighthouse reports:

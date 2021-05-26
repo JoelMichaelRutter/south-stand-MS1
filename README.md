@@ -167,6 +167,8 @@ Below I will list the variety of technology I used during the development proces
 * **[Image Compressor](https://imagecompressor.com/)** - For compressing images without resizing.
 * **[Iframe Generator](https://html-css-js.com/html/generator/iframe/)** - Used to generate an iframe element for my footer.
 * **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README and TESTING documents. 
+* **[Microsoft Forms](https://forms.microsoft.com/)** - To create my user testing feedback form.
+* **[Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)** - To create my manual testing spreadsheet checklist.
 # **Testing**  
 P 
 # Deployment
@@ -214,10 +216,11 @@ I will continue to revisit this code as I develop further to apply my new skills
 ## **Code**
 * **[Code Institute’s Full Stack Software Development Course](https://codeinstitute.net/)** - For there course modules so that I could skip back and review course content to help me.
 * **[Stack Overflow Community](https://stackoverflow.com/)** - For helping me find my way around problems and suggesting fixes.
-* **[W3 Schools](https://www.w3schools.com/)** - For serving as a quick dictionary of declatations and values.
+* **[W3 Schools](https://www.w3schools.com/)** - For serving as a quick dictionary of declatations and values. And also their page on removing arrow spinners from number inputs [here](www.w3schools.com/howto/howto_css_hide_arrow_number.asp).
 * **[Caler Edwards](https://www.youtube.com/watch?v=xMTs8tAapnQ)** - For his video tutorial on creating a pure CSS responsive navigation menu (styles implemented were my own).
+* **[Stephen Keable](https://stephenkeable.medium.com/iphone-safari-changing-colour-of-phone-numbers-b79e5139cc06)** - For his code which helped me remove the Safari defealt styling on my phone number but not the click to call functionality.
 # **ProjectAcknowledgements**
 * **The Slack Community** - For letting me bounce bits of code off them and for exposing me to new ways of doing things.
 * **Code Institute Tutor Support** - For pushing me in the right direction with tricky bugs.
-* **My Partner** - Charlotte Howard for her marketing genius and helping me write copy.
+* **My Partner** - Charlotte Howard for her marketing genius and helping me write copy that wasn't total rubbish.
 * **My Mentor** - Chris Quinn for his helpful feedback, coding genius and for being all-around sound guy.
