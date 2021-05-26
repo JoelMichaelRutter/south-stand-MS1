@@ -679,6 +679,7 @@ and (max-width: 425px) {
 
     #home-overlay h2 {
         text-align: center;
+        padding-left: 0;
     }
 
     #home-overlay p {
