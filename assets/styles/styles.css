@@ -1217,6 +1217,13 @@ and (max-width: 1024px) {
         text-align: center;
     }
 
+    /* CODE CREDIT - https://stephenkeable.medium.com/iphone-safari-changing-colour-of-phone-numbers-b79e5139cc06*/
+    a[href^=tel] {
+        text-decoration:inherit;
+        color: inherit;
+     }
+/* END OF CODE CREDIT*/
+
     #footer-social-icons {
         margin-top: 0;
         text-align: center;
