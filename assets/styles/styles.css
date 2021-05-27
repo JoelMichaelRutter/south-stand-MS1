@@ -239,7 +239,7 @@ body {
 }
 
 #other-drink-menu-heading {
-    font-size: 400%;
+    font-size: 260%;
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
@@ -249,18 +249,19 @@ body {
  .other-drinks-menu-container {
     width: 100%;
     background-color: #dbdddb;
-    height: 40rem;
+    height: 100%;
     text-align: center;
     padding-top: 2vh;
+    margin-bottom: 1rem;
  }
 
  .other-drinks-card {
     display: inline-block;
     vertical-align: top;
-    width: 20%;
+    width: 22%;
     border-radius: 4px;
     height: 600px;
-    margin: 0 2vw;
+    margin: 0 1rem;
     background-color: #51576B;
     text-align: center;
 }
@@ -309,7 +310,7 @@ body {
     margin: 0 auto;
 }
 .spirit-menu-item {
-    margin: 0 0;
+    margin: 12px 0 0 0;
 }
  /*----------- COCKTAIL MENU CARD GLOBAL STYLINGS -----------------------*/
 
