@@ -220,6 +220,7 @@ body {
     background-color: #3f4042;
     text-align: center;
     overflow: hidden;
+    vertical-align: top;
 }
 
 .beer-card img {
