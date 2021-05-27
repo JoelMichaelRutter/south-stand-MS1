@@ -34,10 +34,10 @@ Please click [here](link to spreadsheet) to access the spreadsheet checklists fo
    * Motorola Moto G7 – Google Chrome, MS Edge, Firefox – Android 10
    * iPhone 6 Plus – Safari 12 – iOS 12.2.5
    * iPad 6th Gen - Safari 14 - iOS 14.4
-   * HP Elitebook – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop)– Windows 10
+   * HP Elitebook – Google Chrome, Firefox, MS Edge & Internet Explorer – Windows 10
    * Macbook Pro 13” – Google Chrome, Safari – Mac OSX Mojave
-   * Dell Inspiron Laptop – Google Chrome, MS Edge, Internet Explorer, Firefox – Windows 10
-   * AOC Desktop Monitor – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop) – Windows 10.
+   * Dell Inspiron Laptop – Google Chrome, MS Edge, Firefox – Windows 10
+   * AOC Desktop Monitor – Google Chrome, Firefox, MS Edge, Internet Explorer – Windows 10.
 
 The site has also been tested inside Google Chrome dev tools and is fully responsive to all device sizes. In conclusion, the website whilst not written in a responsive framework the site is:
    * Cross compatible across device sizes as demonstrated through manual testing and in dev tools. 
