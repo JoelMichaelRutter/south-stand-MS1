@@ -5,7 +5,12 @@
 2. Towards the end of the development process, I started to validate my HTML & CSS so that I could see how much I would need to change, and factor this in before finalising my code. Below are some of the validator errors I encountered. (I fixed prior to detailing my testing process but can be seen in my commit history):
   * **Spans** - When I began to make the site respond, I used span elements as my page overlays in an attempt to make them responsive and allow the content to control the element's height. This in turn caused an error to show up in the validator. To fix the issue, I simply applied the stylings to the section containing the span and removed the span element. The pages work in the same way and the error in the validator is no longer present.
   * **Iframe** - I encountered an error doing something in line with the course content as the HTML validator stated that I wasn’t allowed to insert text in any context between the iframe opening and closing tag. To get around this and display something for browsers where iframes are not supported, I consulted tutor support. They advised me to write some more text inside the section and use positioning and z-index to hide the text behind the element on all viewport sizes. I copied the text outside of the iframe element and added some specific styling to tag to position it behind the iframe, changing the positioning in the relevant media queries to ensure that it wasn't hanging out of the border. The text is in the correct position as when the page loads, you can see it briefly as the iframe loads in. I encountered a few iframe validation issues on account of the inline stylings applied to the element, as the element was already styled by CSS, removing them did not cause any issues and fixed the obselete styling error in the browser.   
-Other than the issues presented above, the only other errors I had were due to stray empty attributes and closing tags. I resolved these errors by removing them.  
+Other than the issues presented above, the only other errors I had were due to stray empty attributes and closing tags. I resolved these errors by removing the stray tags.  
+# **Issues During the Testing Process**
+I was very pleased with the level of responsivness and compatability overall; however there were a few bugs that I came across during the testing process. Below I will summarise the issues I found and what I did to fix them:
+   * **Xframe Policy Issue** - Once of the most alarming bugs that I found was that my iframe was not loading in on Firefox due to an X frame policy issue. This policy is in place to ensure that sites that have not provided permission for to be pulled into another via an iframe element aren't used against the owners will. I researched the issue and was intitally worried that I wouldn't be able to find a fix. I then read on Stack Overflow that if you don't use a src attribute that provide the site has provided permission, it won't work. When I originally created the iframe, I used a generator and simply copied the Google Maps url into it. I went back to Google Maps and used the embed option which gave me a new iframe element. I put it into the code and commented out the old one for the time being. Foruntaley, as I was using the specific embed link from Google, the element now worked and the stylings were applied correctly. I have tested this across all viewport sizes and it responds and works correctly.
+   * **Other Drink Menu Heading & Cards** - When I validated my HTML, I received a warning that one of my menu sections lacked semantic context as it was missing a heading. I thought about the user and the accessibility consequences and decided to add a header in. Upon doing that, I didn't realise that it pushed my content down whilst in desktop view. I had to amend the container size and the size of the other drink menu cards to account for the space being taken up by the header. They now display as they did prior to the heading being added.
+   * **datetime-local input** - There is a very small compatability issue with the site. The datetime-local input is not compatible with some browsers. There is wider support across browsers for it and I am not paticularly worried about it from a user perspective as in every browser that doesn't support the input type downgrades the input to a text field so it does not prevent the user from actually submitting the form. On the most popular browsers like Google Chrome, Safari, MS Edge and Samsung Internet, the time and date picker is supported.
 # **User Stories Testing**
 For ease of reference, I will display the user stories and an explanation of how these stories have been fulfilled below:
 * **To discover the brand and venue through exciting and adaptive design, ensuring scalability through viewport sizes and on different browsers with no degradation of content.**
@@ -25,18 +30,19 @@ For ease of reference, I will display the user stories and an explanation of how
 In addition to the above, I completed some limited user testing where I provided the site to a sample of my work colleagues and asked them to answer some feedback questions. You can see the answers by navigating to the spreadsheet attached [here](link to spreadsheet).  
 # **Functionality and Compatability Testing**
 Please click [here](link to spreadsheet) to access the spreadsheet checklists for full details of all manual functionality and compatibility testing completed across a range of devices. To summarise the manual testing, the website has been tested by myself in both portrait and landscape mode on the following devices, browsers & operating systems:
-* Google Pixel 3 – Google Chrome, MS Edge, Firefox – Android 11
-* Motorola Moto G7 – Google Chrome, MS Edge, Firefox – Android 10
-* iPhone 6 Plus – Safari 12 – iOS 12.2.5
-* iPad 6th Gen - Safari 14 - iOS 14.4
-* HP Elitebook – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop)– Windows 10
-* Macbook Pro 13” – Google Chrome, Safari – Mac OSX Mojave
-* Dell Inspiron Laptop – Google Chrome, MS Edge, Internet Explorer, Firefox – Windows 10
-* AOC Desktop Monitor – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop) – Windows 10  
+   * Google Pixel 3 – Google Chrome, MS Edge, Firefox – Android 11
+   * Motorola Moto G7 – Google Chrome, MS Edge, Firefox – Android 10
+   * iPhone 6 Plus – Safari 12 – iOS 12.2.5
+   * iPad 6th Gen - Safari 14 - iOS 14.4
+   * HP Elitebook – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop)– Windows 10
+   * Macbook Pro 13” – Google Chrome, Safari – Mac OSX Mojave
+   * Dell Inspiron Laptop – Google Chrome, MS Edge, Internet Explorer, Firefox – Windows 10
+   * AOC Desktop Monitor – Google Chrome, Firefox (edge and IE were blocked as it is a work laptop) – Windows 10.
+
 The site has also been tested inside Google Chrome dev tools and is fully responsive to all device sizes. In conclusion, the website whilst not written in a responsive framework the site is:
-* Cross compatible across device sizes as demonstrated through manual testing and in dev tools. 
-* Cross compatible across browsers as demonstrated through manual testing - one caveat here is that the datetime-local input field is buggy on older versions of Safari and not compatible at all by IE and Firefox for desktop. Despite this, the input does downgrade to a text field which still allows input it just means the data submitted by users on this browsers will be inconsistent with those that use Google Chrome or Edge where the feature is supported. 
-* Cross compatible across operating systems as demonstrated by manual testing.
+   * Cross compatible across device sizes as demonstrated through manual testing and in dev tools. 
+   * Cross compatible across a large proportion of popular browsers as demonstrated through manual testing.
+   * Cross compatible across operating systems as demonstrated by manual testing.
 # Performance Testing
 To test the performance of the website, I used Google Lighthouse inside Chrome Dev Tools. Below I will outline each pages performance with screenshots of the lighthouse reports:
 ## index.html  

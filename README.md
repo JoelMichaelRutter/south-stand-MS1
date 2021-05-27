@@ -20,7 +20,7 @@ This web application is for a fictitious micro-brewery and taproom based in Warr
    * #### [Iconography](##InconographyChoices)
 * ### [Functional Features](#FunctionalFeatures)
 * ### [Technologies](#TechnologiesUsed)
-* ### [Testing]()
+* ### [Testing](#ApplicationTesting)
 * ### [Deployment](#Deployment)
     * #### [Forking](#Forkingtherepository)
     * #### [Cloning](#Cloningtherepository)
@@ -162,6 +162,7 @@ Below I will list the variety of technology I used during the development proces
 * **Pencil & Paper** - for original concept drafts.
 * **[Miro](https://miro.com/login/)** - Was used to advance my wireframes and concepts in a digital space.  
 ### Other
+* **[Can I Use?](https://caniuse.com/)** - To understand browser compatability and help with testing.
 * **[Colourspace](https://mycolor.space/?hex=%233F4044&sub=1)** - For help with choosing a colour palette, specifically the twisted spot palette.
 * **[Online Image Resizer](https://resizeimage.net/)** - For reducing image size in terms of resolution and compression.
 * **[Image Compressor](https://imagecompressor.com/)** - For compressing images without resizing.
@@ -169,8 +170,8 @@ Below I will list the variety of technology I used during the development proces
 * **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README and TESTING documents. 
 * **[Microsoft Forms](https://forms.microsoft.com/)** - To create my user testing feedback form.
 * **[Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)** - To create my manual testing spreadsheet checklist.
-# **Testing**  
-P 
+# **ApplicationTesting**  
+Please click [here](testing.md) to see a full breakdown of all testing completed on the application.
 # Deployment
 The finalised version of the site is deployed on GitHub Pages. Here are the steps I followed to deploy the site:
 1.	Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
@@ -186,7 +187,7 @@ The finalised version of the site is deployed on GitHub Pages. Here are the step
 ## **Forkingtherepository**
 Should you wish to use the site code inside the repository without affecting the original repository, you can make a fork and create a copy of the repository which you can view and amend the code within. To create a fork, follow these steps:
 1. Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
-2. In the top right-hand corner of the repository, you will see three buttons just below your profile icon. The rightmost button is called “fork”. Click this button.
+2. In the top right-hand corner of the repository, you will see three buttons just below your profile icon. The rightmost button is called “fork”. Click this button.  
 ![Fork Button Screenshot](assets/read-me-images/fork1.PNG)
 3. The repository will now be copied to your own GitHub account.
 ## **Cloningtherepository**
@@ -207,7 +208,7 @@ I have really enjoyed the project despite some of blockers and challenges, and I
 # **FurtherDevelopmentScope**
 I will continue to revisit this code as I develop further to apply my new skills. There are a few specific considerations that I would like to voice:
 * I would like to include more scope for user interaction which I think I will develop with the JavaScript module coming up. One thing that I really wanted to do was have detailed beer profiles appear on the opposite sides of the beer cards which would flip over when the user interacted with them.
-* I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issue as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox within which the input works as intended.
+* I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issue as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox Mobile within which the input works as intended.
 * I would develop the form further to provide a submission successful or unsuccessful message to the user for further visual feedback. 
 * Based on user feedback, I would also develop a gallery of images and add it as an extra page to provide users with some visual reference of what the venue looks like to aid in location and add to the enticing theme of the site.
 # **ProjectCredits**
