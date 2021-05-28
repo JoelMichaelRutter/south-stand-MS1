@@ -214,4 +214,4 @@ I will continue to revisit this code as I develop further to apply my new skills
 * **The Slack Community** - For letting me bounce bits of code off them and for exposing me to new ways of doing things.
 * **Code Institute Tutor Support** - For pushing me in the right direction with tricky bugs.
 * **My Partner** - Charlotte Howard for her marketing genius and helping me write copy that wasn't total rubbish.
-* **My Mentor** - Chris Quinn for his helpful feedback, coding genius and for being all-around sound guy.
+* **My Mentor** - Chris Quinn for his helpful feedback, coding genius and for being an all-around sound guy.
