@@ -15,7 +15,7 @@ This web application is for a fictitious micro-brewery and taproom based in Warr
 * ### [Testing](#Application-Testing)
 * ### [Deployment](#Deploying-the-site)
 * ### [Reflection](#Project-Reflection)
-* ### [Further Development Scope](#FurtherDevelopmentScope)
+* ### [Further Development](#Further-Development-Scope)
 * ### [Credits](#ProjectCredits)
 * ### [Acknowledgement](#ProjectAcknowledgments)
 # [**Deployed Website**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
@@ -195,7 +195,7 @@ You can create a clone of the repository inside your development environment. To
 # **Project Reflection**
 I have really enjoyed the project despite some of blockers and challenges, and I am really pleased with the result. The site looks polished and how I imagined it before I started so it’s brilliant to see how it has come together, utilising the skills I have learnt on the course, and from my extracurricular reading and research.  I have a few considerations that I would like to share about the development process.  
 * If I was to do this again, I would 100% use a responsive framework such as CSS flexbox, grid, or Bootstrap. Making the site respond to a variety of devices was challenging without the use of such frameworks. Despite this, I think that the traditional approach benefitted me in terms of browser compatibility as prior to the testing stage, I was testing in different browsers with very few, if any, compatibility issues. I look forward to using responsive frameworks in my future projects. 
-# **FurtherDevelopmentScope**
+# **Further Development Scope**
 I will continue to revisit this code as I develop further to apply my new skills. There are a few specific considerations that I would like to voice:
 * I would like to include more scope for user interaction which I think I will develop with the JavaScript module coming up. One thing that I really wanted to do was have detailed beer profiles appear on the opposite sides of the beer cards which would flip over when the user interacted with them.
 * I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issue as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox Mobile within which the input works as intended.
