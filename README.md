@@ -6,56 +6,46 @@ This web application is for a fictitious micro-brewery and taproom based in Warr
 2. **Robust yet friendly** – The brewery and taproom dynamic would appeal to a ‘hipster’ audience. If you look at other companies that offer the similar dynamics such as Founders Brewing or Brewdog, the typography, copy, images and branding are targeted at their key demographic. Whilst it is important to consider the culture of the audience, one of the business goals of the site is to increase awareness and in course footfall to the venue itself. On that basis, I will be using typography, images, and colour to give the effect of a rugged, no-nonsense bar where beer is the passion, but using calls to action and content to promote a friendly atmosphere.
 3. **Enticing** – Normal e-commerce or B2B web applications have a focus on providing a lot of information, or at least having it available to a user if they wish to see it. I will adopt elements of this approach, however, to generate interest and footfall, I wanted to create a site that felt enticing and leave users wanting more through interesting content and tempting background imagery.
 ## Table of Contents
-* ### [Deployed Website](#DeployedWebsite)
-* ### [Demonstration](#SiteDemonstration)
-* ### [User Experience](#UserExperience)
-    * #### [Business Goals](###BusinessGoals)
-    * #### [User Stories](###UserStories)
-    * #### [Structure Plane](##StructurePlane)
-    * #### [Skeleton Plane](##SkeletonPlane)
-* ### [Design Features](#DesignFeatures)
-   * #### [Colours](##ColourChoices)
-   * #### [Typography](##TypographyChoices)
-   * #### [Imagery and Media](##ImageryandMedia)
-   * #### [Iconography](##InconographyChoices)
-* ### [Functional Features](#FunctionalFeatures)
-* ### [Technologies](#TechnologiesUsed)
-* ### [Testing](#ApplicationTesting)
-* ### [Deployment](#Deployment)
-    * #### [Forking](#Forkingtherepository)
-    * #### [Cloning](#Cloningtherepository)
-* ### [Project Reflection](#ProjectReflection)
+* ### [Deployed Site](#Deployed-Website)
+* ### [Demo](#Site-Demonstration)
+* ### [UX](#User-Experience)
+* ### [Design](#Design-Features)
+* ### [Features](#Functional-Features)
+* ### [Technologies](#Technologies-Used)
+* ### [Testing](#Application-Testing)
+* ### [Deployment](#Deploying-the-site)
+* ### [Reflection](#Project-Reflection)
 * ### [Further Development Scope](#FurtherDevelopmentScope)
 * ### [Credits](#ProjectCredits)
 * ### [Acknowledgement](#ProjectAcknowledgments)
-# [**DeployedWebsite**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
+# [**Deployed Website**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
 By clicking the hyperlinked header above, you can access the final deployed site hosted on GitHub Pages.
-# SiteDemonstration
+# Site Demonstration
 ## [Am I Responsive?](http://ami.responsivedesign.is/)
 Below you can see an image of the final site in the Am I Resonsive tool which shows the fantastic level of responsivity of the site to a number of viewports. Attached the above header is a link to the Am I Responsive tool; should you wish to use it yourself.  
 ![Image](assets/read-me-images/ss-amiresponsive.PNG)
-# UserExperience
+# User Experience
 In this section, I will discuss the user experience considerations I implemented during the development process.
 ## **Strategy**
-### **BusinessGoals**
+### **Business Goals**
 The promotion of the business’ ethos is important to engage with a user on an emotional level through the content not just design, structure, and layout. The other main goal was to prompt the user to see the business as a positive place where they will enjoy spending time digitally and in person.
 The main points I considered during the strategy in terms of the business’ goals were:
 * Increase awareness of business and brand.
 * Increase footfall in the venue.
 * Increase sales of the business’ own craft brewed beer.
 * Generate an enticing, exciting environment to leave users wanting to explore the site and increase conversions (booking a table).
-### **UserStories**
+### **User Stories**
 Below are the user stories that needed to be fulfilled for the project to be successful from the perspective of the user:
 * To discover the brand and venue through exciting and adaptive design, ensuring scalability through viewport sizes and on different browsers with no degradation of content.
 * To navigate through the site with ease.
 * To discover the locally brewed craft beer and drinks menu offered by the business.
 * To be able to book a table to guarantee themselves a place to sit when they visit.
 * To access key business information such as map location, address, opening times and contact information.
-## **StructurePlane**
+## **Structure Plane**
 I originally wanted to keep the site contained to a single page to make it simplistic and easy to use. I began the build by creating a homepage with a few sections underneath – creating a plain but workable site. However, when I experimented with the site in GitPod, I considered my user and what they would expect to see on the page – putting my assumptions aside.  
 
 Professional websites are often compartmentalised to prevent an information overload for the user. With this in mind, I split the site into its respective pages. This also enabled me to develop some navigation functions to provide visual feedback, in the form of a bottom border, to easily identify to the user which page they were interacting with. With the user in mind, to complement the user-friendly navigation, I wanted to create a consistent, visual journey throughout the site – choosing a background image, with both in focus and out-of-focus elements, to add to the theme of enticement. 
-## **SkeletonPlane**
+## **Skeleton Plane**
 There were two stages to the skeleton process:
 1. I started by drawing some basic concepts of what I wanted the site to look like on desktop and mobile, images of the drawings can be found below:
 ![PaperWireframes](assets/read-me-images/paper-wireframe.png)
@@ -63,8 +53,8 @@ There were two stages to the skeleton process:
    * [Large Screens](assets/read-me-images/large-screen-miro-wireframe.png)
    * [Tablet Screens](assets/read-me-images/tablet-mire-wireframe.png)
    * [Mobile Screens](assets/read-me-images/mobile-miro-wireframe.png)
-# **DesignFeatures**
-## **ColourChoices**
+# **Design Features**
+## **Colour Choices**
 The colour palette for this project was developed in line with the themes of the site, to recap those themes are:
 1. Sleek, simple, and professional 
 2. Robust yet friendly
@@ -78,7 +68,7 @@ Below you will find in-depth considerations about the colour selection and the t
 * #### **RGBA (181, 138, 27 0.9)** – To ensure consistency, I used a [HEX to RGBA converter](http://hex2rgba.devoth.com/) to convert my orange hex colour into a RGBA value. I lowered the alpha value ever so slightly and used it as the background colour for my homepage overlay. This allows my enticing home background image to be seen through it without degrading the contrast or readability of the overlay.
 * #### **(#51576b)** – I wanted a clear difference between my dark grey navigation bar and the footer of the page, so I chose a complementary turquoise colour. This tone combined with the colour of the font creates a nice balance of contrast, making it easy to read but not so much that the contrast in colours is jarring.  
 * #### **(#dbdbdb)** – I introduced the smoky, light grey to add to the alluring theme of the site. As mentioned above in terms of font colour, it makes for an excellent balance of contrast and is pleasing to the eye. I also used this colour as a container background colour to contrast against my main dark grey as an almost semantic indication that the content is changing.
-## TypographyChoices
+## Typography Choices
 For the project, I used two fonts imported into my CSS file from [Google Fonts](https://fonts.google.com/). They were selected in line with the overarching themes that I wanted to achieve. The fonts I chose, examples and explanations are detailed below:
 ### **Raleway** 
 ![RalewayImage](assets/read-me-images/raleway-picture.png)  
@@ -86,7 +76,7 @@ I chose Raleway as its smooth and modern tone reflected the themes for my projec
 ### **Bitter**
 ![BitterImage](assets/read-me-images/bitter-picture.png)  
 I chose Bitter in line with my other theme – robust yet friendly. The font looks more organic and handwritten, similar to how a bar menu would be written on a chalkboard. It also complements Raleway’s modern feel.
-## ImageryandMedia
+## **Imagery and Media**
 I obtained my images from a few different sources. Like all the selections so far, be it colours or fonts, I wanted the imagery to play into the themes of the site. The imagery in the project provokes a positive user response in line with the enticing theme of the site, without detracting from the content within the pages. 
 All the images have a consistent feel with in-focus and out-of-focus elements. All images of unsuitable size were resized and compressed to ensure a good level of performance. Below you will find a full breakdown of the images used throughout the project.  
 ### **[Wix Logo Creator](https://bit.ly/3vx0UI5)**   
@@ -106,9 +96,9 @@ I used a Canva template to create the beer label images and added my logo. Once 
 * **[Sin Bin Pale Ale Image](https://bit.ly/3hCP1vM)**
 * **[40/20 Pilsner Image](https://bit.ly/3yox6im)**
 * **[Scrum Milk Stout Image](https://bit.ly/3yp2c9K)**
-## InconographyChoices
+## Inconography Choices
 I used iconography from [Font Awesome](https://fontawesome.com/). I decided to limit my use of iconography throughout the site as I felt from a user perspective the site achieved what it needed to without the widespread use of icons. I chose consistently styled social media icons for Facebook, Instagram, and Twitter – positioning them below the contact details section of the footer as this is where the user would expect to see them, therefore, increasing my success of the user following the business on social media. 
-# **FunctionalFeatures**
+# **Functional Features**
 Below I will list the application's features from the intended perspective of the user, (links to the corresponding page inside the site are implemented inside the headings) - 
 ### **[Index Page](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)**
 * **Navigation Bar** - The navigation is positioned at the top of viewport on all device sizes. The navigation is consistently styled throughout every page. When displayed on a laptop or desktop, the content is displayed inline. For the mobile and tablet view, the use of CSS media queries calls alternative styling with a hamburger menu and a collapsible block navigation menu. The content displayed within is as follows:
@@ -143,7 +133,7 @@ On this page, the customer can use a html form to book a table for their visit. 
 * **Booking Confirmation Disclaimer (checkbox input)** – This input field allows the business to set expectations to the user regarding their booking and asks them to confirm that they understand that without booking confirmation, they are not guaranteed a table.
 * **Reset Button (reset input)** – The reset button allows the user to reset the form if they make a mistake or their browser fills in information automatically. This button has a pseudo hover class applied to it to change the colour and provide visual feedback to the user as to what they are doing.
 * **Send It! Button (submit button)** – Finally, we have the submit button. This is styled in opposite colours to the reset button and has a pseudo class applied to change its colours when the user hovers over it to provide visual feedback to the user. The positioning of the send it button on the right is its natural place from a user perspective as we read in English from the left to the right, so the submit button should be the final thing the user looks at.
-# TechnologiesUsed
+# **Technologies Used**
 Below I will list the variety of technology I used during the development process:
 ### **Operating Systems**
 * **[Windows 10](https://www.microsoft.com/en-gb/windows/get-windows-10)**
@@ -170,12 +160,12 @@ Below I will list the variety of technology I used during the development proces
 * **[Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word)** - Used to write the initial README and TESTING documents. 
 * **[Microsoft Forms](https://forms.microsoft.com/)** - To create my user testing feedback form.
 * **[Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel)** - To create my manual testing spreadsheet checklist.
-# **ApplicationTesting**  
+# **Application Testing**  
 Please click [here](testing.md) to see a full breakdown of all testing completed on the application.
-# Deployment
+# **Deploying the site**
 The finalised version of the site is deployed on GitHub Pages. Here are the steps I followed to deploy the site:
 1.	Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
-2.	In the top menu of the repository, select the settings option.
+2.	In the top menu of the repository, select the settings option.  
 ![Git Hub Settings Option Screenshot](assets/read-me-images/deploy2.PNG)
 3.	Scroll down the settings page until you find the GitHub Pages option and click it.  
 ![Git Hub Pages Option Inside Settings](assets/read-me-images/deploy3.PNG)
@@ -184,13 +174,13 @@ The finalised version of the site is deployed on GitHub Pages. Here are the step
 5.	The page will refresh automatically and provide a link to the deployed site in the uppermost section. Click this link to load the deployed site.  
 ![Git Hub Pages Deployed Site Link Screenshot](assets/read-me-images/deploy5.PNG)
 6.	If the site does not display straight away, it may be because GitHub pages is preparing the site, wait for a few minutes and follow the previous step again.
-## **Forkingtherepository**
+## **Forking the repository**
 Should you wish to use the site code inside the repository without affecting the original repository, you can make a fork and create a copy of the repository which you can view and amend the code within. To create a fork, follow these steps:
 1. Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
 2. In the top right-hand corner of the repository, you will see three buttons just below your profile icon. The rightmost button is called “fork”. Click this button.  
 ![Fork Button Screenshot](assets/read-me-images/fork1.PNG)
 3. The repository will now be copied to your own GitHub account.
-## **Cloningtherepository**
+## **Cloning the repository**
 You can create a clone of the repository inside your development environment. To do this, follow these steps:
 1. Login to [GitHub](https://github.com/) and locate the [south-stand-MS1](https://github.com/JoelMichaelRutter/south-stand-MS1) repository.
 2. Whilst in the repository, you will see the various files contained within. Above this list, you will see a button labelled “code”. The button will have a small download icon beside it.  
@@ -202,7 +192,7 @@ You can create a clone of the repository inside your development environment. To
 6.	In the bash terminal, enter “git clone”, then paste in the URL copied from the GitHub repository and hit enter.
 ![Cloning Terminal Screenshot](assets/read-me-images/clone3.PNG)
 7.	A clone of all files will now be pulled into the workspace.
-# **ProjectReflection**
+# **Project Reflection**
 I have really enjoyed the project despite some of blockers and challenges, and I am really pleased with the result. The site looks polished and how I imagined it before I started so it’s brilliant to see how it has come together, utilising the skills I have learnt on the course, and from my extracurricular reading and research.  I have a few considerations that I would like to share about the development process.  
 * If I was to do this again, I would 100% use a responsive framework such as CSS flexbox, grid, or Bootstrap. Making the site respond to a variety of devices was challenging without the use of such frameworks. Despite this, I think that the traditional approach benefitted me in terms of browser compatibility as prior to the testing stage, I was testing in different browsers with very few, if any, compatibility issues. I look forward to using responsive frameworks in my future projects. 
 # **FurtherDevelopmentScope**
