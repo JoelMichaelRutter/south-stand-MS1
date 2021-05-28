@@ -16,8 +16,8 @@ This web application is for a fictitious micro-brewery and taproom based in Warr
 * ### [Deployment](#Deploying-the-site)
 * ### [Reflection](#Project-Reflection)
 * ### [Further Development](#Further-Development-Scope)
-* ### [Credits](#ProjectCredits)
-* ### [Acknowledgement](#ProjectAcknowledgments)
+* ### [Credits](#Project-Credits)
+* ### [Acknowledgement](#Project-Acknowledgments)
 # [**Deployed Website**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
 By clicking the hyperlinked header above, you can access the final deployed site hosted on GitHub Pages.
 # Site Demonstration
@@ -201,7 +201,7 @@ I will continue to revisit this code as I develop further to apply my new skills
 * I know that there are some minor issues with browser compatibility, specifically with Internet Explorer. The only issue is the date and time picker on the form doesn’t have the same functionality inside Internet Explorer. I have researched this, and I think the problem can be solved using JQuery and patched in a later release. I’m not particularly worried about this compatibility issue as research shows that as of 2021, the most popular browsers are Google Chrome, Safari, Samsung Internet and Firefox Mobile within which the input works as intended.
 * I would develop the form further to provide a submission successful or unsuccessful message to the user for further visual feedback. 
 * Based on user feedback, I would also develop a gallery of images and add it as an extra page to provide users with some visual reference of what the venue looks like to aid in location and add to the enticing theme of the site.
-# **ProjectCredits**
+# **Project Credits**
 ## **Content**
 * **[Vox Bar, Huddersfield](https://www.facebook.com/VoxBarHuddersfield/)** - For the general idea of creating a bar and their amazing cocktail recipes.
 ## **Code**
@@ -210,7 +210,7 @@ I will continue to revisit this code as I develop further to apply my new skills
 * **[W3 Schools](https://www.w3schools.com/)** - For serving as a quick dictionary of declatations and values. And also their page on removing arrow spinners from number inputs [here](www.w3schools.com/howto/howto_css_hide_arrow_number.asp).
 * **[Caler Edwards](https://www.youtube.com/watch?v=xMTs8tAapnQ)** - For his video tutorial on creating a pure CSS responsive navigation menu (styles implemented were my own).
 * **[Stephen Keable](https://stephenkeable.medium.com/iphone-safari-changing-colour-of-phone-numbers-b79e5139cc06)** - For his code which helped me remove the Safari defealt styling on my phone number but not the click to call functionality.
-# **ProjectAcknowledgements**
+# **Project Acknowledgements**
 * **The Slack Community** - For letting me bounce bits of code off them and for exposing me to new ways of doing things.
 * **Code Institute Tutor Support** - For pushing me in the right direction with tricky bugs.
 * **My Partner** - Charlotte Howard for her marketing genius and helping me write copy that wasn't total rubbish.
