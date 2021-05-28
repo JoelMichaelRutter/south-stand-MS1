@@ -436,6 +436,7 @@ input[type="text"], input[type="email"], input[type="number"], input[type="datet
     bottom: 3rem;
 
 }
+
 #no-radio-button {
     position: relative;
     display: inline-block;
@@ -957,7 +958,6 @@ and (max-width: 1024px) {
     #toggle:checked+.menu {
         display: block;
     }
-
 
     #grab-table-button {
         text-decoration: none;
