@@ -205,7 +205,7 @@ I will continue to revisit this code as I develop further to apply my new skills
 ## **Content**
 * **[Vox Bar, Huddersfield](https://www.facebook.com/VoxBarHuddersfield/)** - For the general idea of creating a bar and their amazing cocktail recipes.
 ## **Code**
-* **[Code Institute’s Full Stack Software Development Course](https://codeinstitute.net/)** - For there course modules so that I could skip back and review course content to help me.
+* **[Code Institute’s Full Stack Software Development Course](https://codeinstitute.net/)** - For their course modules so that I could skip back and review course content to help me.
 * **[Stack Overflow Community](https://stackoverflow.com/)** - For helping me find my way around problems and suggesting fixes.
 * **[W3 Schools](https://www.w3schools.com/)** - For serving as a quick dictionary of declatations and values. And also their page on removing arrow spinners from number inputs [here](www.w3schools.com/howto/howto_css_hide_arrow_number.asp).
 * **[Caler Edwards](https://www.youtube.com/watch?v=xMTs8tAapnQ)** - For his video tutorial on creating a pure CSS responsive navigation menu (styles implemented were my own).
