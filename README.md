@@ -17,7 +17,7 @@ This web application is for a fictitious micro-brewery and taproom based in Warr
 * ### [Reflection](#Project-Reflection)
 * ### [Further Development](#Further-Development-Scope)
 * ### [Credits](#Project-Credits)
-* ### [Acknowledgement](#Project-Acknowledgments)
+* ### [Acknowledgement](#Project-Acknowledgements)
 # [**Deployed Website**](https://joelmichaelrutter.github.io/south-stand-MS1/index.html)
 By clicking the hyperlinked header above, you can access the final deployed site hosted on GitHub Pages.
 # Site Demonstration
