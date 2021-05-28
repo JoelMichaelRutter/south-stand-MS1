@@ -28,7 +28,7 @@ For ease of reference, I will display the user stories and an explanation of how
    * The navigation bar is consistent across all pages regardless of the device ensuring a consistent visual user journey and ease of learning.
 * **To discover the locally brewed craft beer and drinks menu offered by the business.**
     * On the “Our Menu” page, by order of precedence, the first thing the user sees when they scroll to explore the content is an explanation of what the user is seeing and then brightly coloured beer labels. The order of the content is important here as it forces the user to view the business' own craft beer before they can view what else the business has to offer.
-* **be able to book a table to guarantee themselves a place to sit when they visit.**
+* **Be able to book a table to guarantee themselves a place to sit when they visit.**
    * Inside the navigation menu, the “Grab a table” link is offset with wider margins and emphasised with alternative/ reversed colour styling. Clicking the grab a table button takes the user to the form.html page where they can use a HTML form to book a table for their visit. 
 * **To access key business information such as map location, address, opening times and contact information.**
    * The business-critical information to the user is displayed in the footer which is the norm in terms of information layout and is what is expected by users. This is confirmed in my user testing.   
